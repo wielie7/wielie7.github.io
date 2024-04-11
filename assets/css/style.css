@@ -488,7 +488,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 --------------------------------------*/
 .contact {
     background: #202a4d;
-    padding: 50px 0 100px;
+    padding: 50px 0 50px;
 }
 
  .section-heading {
@@ -502,7 +502,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     /* border-bottom: 1px solid #e5ebf2; */
     padding-bottom: 30px;
 } 
-.single-contact-box {padding-top: 100px;}
+.single-contact-box {
+    padding-top: 30px;
+
+}
 .contact-form  .form-group {
     margin-bottom: 20px;
     
