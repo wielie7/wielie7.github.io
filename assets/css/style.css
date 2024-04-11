@@ -61,6 +61,19 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Poppins', sans-serif;
 	text-transform: capitalize;
 }
+
+h7 {
+    margin: 0;
+	font-family: 'Poppins', sans-serif;
+	text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+	margin: 0;
+	color:#ffffff;
+	font-family: 'Poppins', sans-serif;
+}
+
 p {
 	margin: 0;
 	line-height:1.8;
@@ -148,7 +161,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     font-size: 8px;
     margin-left: 15px;
 }
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#6a708e;}
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#81512b;}
 
 /*.nav li*/
 
@@ -183,7 +196,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 
 
 /*-------------------------------------
-        3.  Welcome-hero
+        3.  Home
 --------------------------------------*/
 .welcome-hero{
     display: flex;
@@ -244,8 +257,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*-------------------------------------
         4.  About
 --------------------------------------*/
-.about {padding: 50px 0 100px;}
-.about-content {padding-top: 100px;}
+.about {
+    padding: 50px 0 100px;
+    border-top: 1px solid #e5ebf2;
+}
+.about-content {padding-top: 50px;}
 /*.single-about-txt*/
 .single-about-txt h3 {
     font-size:18px;
@@ -324,79 +340,168 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 
 /*.single-about-img */
 
+
+
 /*-------------------------------------
-        5.  Education
+        6.  Collections
 --------------------------------------*/
-
-.education {
-    background:  #f9fbfd;
-    padding-top:  50px;
-}
-.education-horizontal-timeline {
-    padding: 80px 0;
-}
-
-/*.education-horizontal-timeline*/
-.education-horizontal-timeline .col-sm-4 {padding:0 2px;}
-
-.single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
-.single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
-.single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
-.single-horizontal-timeline p {color: #999fb3;max-width: 335px;}
-
-/*.timeline-horizontal-border*/
-.timeline-horizontal-border {
-    display:  flex;
-    align-items: center;
-    padding: 26px 0 30px;
-}
-.timeline-horizontal-border i {
-    font-size:  10px;
-    color: #d92cf9;
-    margin-right:  5px;
-}
-span.single-timeline-horizontal {
-    display:  inline-block;
-    background: #b2c1ce;
-    height:  1px;
-    width: 380px;
-}
-span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
-/*.timeline-horizontal-border*/
-
-/*.education-horizontal-timeline*/
-
-/*-------------------------------------
-        6.  Skills
---------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------
-        7. Experience
--------------------------------------*/
-.experience {
-    padding: 50px 0 100px;
+.Collections{
+    
+    
+    
+    padding: 50px 0 30px;
     border-top: 1px solid #e5ebf2;
 }
+
+
+.section-heading h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e5ebf2;
+    
+}
+.container {
+    /* padding: 15px; */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    /* max-height: 273px;   */
+     height: auto;  
+     text-align: center;
+     position: relative;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #351907c2;
+    
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+    
+  }
 /*-------------------------------------
-        9. Portfolio
+        7. Custom Furniture
+-------------------------------------*/
+
+.CustomFurniture {
+    padding: 50px 0 30px;
+    border-top: 1px solid #e5ebf2;
+     
+} 
+.CustomText h3{
+    font-size:18px;
+    color: #3c4258;
+    text-transform: initial;
+    line-height: 1.8;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.CDcontentbox{
+    /* padding-top: 30px; */
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: auto;
+    display: flex;
+  align-items: center;
+  justify-content: center
+    
+}
+.cdcontentbox.img{
+    max-width: 50%;
+}
+
+.CDtextbox{
+    text-align: left;
+    width: 50%;
+    position: relative;
+    box-sizing: border-box;
+}
+.CDtextbox p{
+    font-weight: 400;
+    text-align: center;
+    padding: 80px;
+    font-size: 18px;
+    color: #3c4258;
+    text-transform: initial;
+    line-height: 1.8;
+    
+
+}
+
+.CDImagebox{
+        float: left;
+    width: 50%;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+  
+
+
+/*-------------------------------------
+        9. Gallery
 --------------------------------------*/
 .portfolio {
-    padding:  50px 0 100px;
+    padding:  50px 0 50px;
     border:  1px solid #e5ebf2;
+    
+    border-top: 1px solid #e5ebf2;
 }
+.portfolio-details{
+    padding-top: 50px;
+    border-top: 1px solid #e5ebf2;
+}
+
+
 
 /*-------------------------------------
         11. Contact
 --------------------------------------*/
 .contact {
-    background: #d5dce6;
+    background: #202a4d;
     padding: 50px 0 100px;
 }
+
+ .section-heading {
+
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+	margin: 0;
+	color:#ffffff;
+	font-family: 'Poppins', sans-serif;
+    /* border-bottom: 1px solid #e5ebf2; */
+    padding-bottom: 30px;
+} 
 .single-contact-box {padding-top: 100px;}
 .contact-form  .form-group {
     margin-bottom: 20px;
@@ -448,8 +553,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     
 }
 .single-contact-btn:hover{
-    background: #9f00ff;
-    border: 1px solid #9f00ff;
+    background: #0080ff;
+    border: 1px solid #000000;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
 }
 
@@ -458,12 +563,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /* contact-adress */
 .contact-add-head h3 {
     font-size:  24px;
-    color:  #3c4258;
+    color:  #ffffff;
 }
 .contact-add-head p {
     font-size:  16px;
     text-transform: capitalize;
-    color:  #636a82;
+    color:  #ffffff;
     font-weight:  300;
     margin-top:  6px;
 }
@@ -472,7 +577,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.contact-add-info */
 .contact-add-info { margin: 42px 0 52px;}
 .single-contact-add-info h3 {
-    color:  #636a82;
+    color:  #ffffff;
     font-weight:  500;
 }
 .single-contact-add-info p {
@@ -491,7 +596,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 } */
 .hm-foot-icon ul li{float:left;}
 .hm-foot-icon ul li>a {
-    color: #636a82;
+    color: #ffffff;
     margin-right:18px;
     -webkit-transition: .3s; 
     -moz-transition:.3s; 
@@ -500,15 +605,15 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     transition: .3s;
 }
 .hm-foot-icon ul li>a:hover{
-    color: #b636ff;
+    color: #ffffff;
 }/*hm-foot-icon*/
 
 .hm-footer-copyright p{
-    color: #888ea5;
+    color: #7a7a7a;
     text-transform: capitalize;
     padding: 38px 0;
 }
-.hm-footer-copyright p a {color: #888ea5;}
+.hm-footer-copyright p a {color: #7a7a7a;}
 /*===============================
     Scroll Top
 ===============================*/
