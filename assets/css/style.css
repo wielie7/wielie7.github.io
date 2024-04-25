@@ -353,6 +353,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
     border-top: 1px solid #e5ebf2;
 }
 
+.collections-row{
+    display: grid;
+  
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  
+  padding: 10px;
+}
 
 .section-heading h2 {
     font-size: 24px;
@@ -369,14 +378,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
     margin-right: auto;
     margin-left: auto;
 }
-.column {
+.col {
     float: left;
-    width: 50%;
+    /* width: 50%;
     padding: 10px;
-    /* max-height: 273px;   */
+  
      height: auto;  
      text-align: center;
-     position: relative;
+     position: relative; */
   }
   
   /* Clear floats after image containers */
@@ -420,55 +429,34 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
     padding-top: 30px;
     text-align: center;
 }
-
-.CDcontentbox{
-    /* padding-top: 30px; */
-    padding-left: 100px;
-    padding-right: 100px;
-    margin: auto;
-    display: flex;
-  align-items: center;
-  justify-content: center
-    
-}
-.cdcontentbox.img{
-    max-width: 50%;
-}
-
-.CDtextbox{
-    text-align: left;
-    width: 50%;
-    position: relative;
-    box-sizing: border-box;
-}
-.CDtextbox p{
-    font-weight: 400;
-    text-align: center;
-    padding: 80px;
-    font-size: 18px;
-    color: #3c4258;
-    text-transform: initial;
-    line-height: 1.8;
-    
-
-}
-
-.CDImagebox{
-        float: left;
-    width: 50%;
-    padding: 10px;
-    height: auto;
-    text-align: center;
-    box-sizing: border-box;
-}
-
-
-
+.cfrow{
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
   
-
-
+  padding: 10px;
+}
+  
+.cftextbox{
+    padding-top: 50px;
+    text-align: center;
+    
+    height: 80%;
+    vertical-align: middle;
+    
+}
+.designcolumn{
+    width: 100%;
+}
+.designpic{
+    width: auto ;
+}
+.cftextbox p{
+    vertical-align: middle;
+    text-align: center;
+}
 /*-------------------------------------
-        9. Gallery
+        9. Portfolio
 --------------------------------------*/
 .portfolio {
     padding:  50px 0 50px;
@@ -480,7 +468,46 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
     padding-top: 50px;
     border-top: 1px solid #e5ebf2;
 }
+.carousel-inner{
+    max-width: auto;
+    margin: auto;
+}
+.carousel-caption h3{
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* height: 60px; */
+    
+    
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+   
+    
 
+}
+.carousel-caption p{
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    
+    
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+   
+}
 
 
 /*-------------------------------------
