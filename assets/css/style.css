@@ -429,14 +429,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
     padding-top: 30px;
     text-align: center;
 }
-.cfrow{
-    display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 10px;
-  
-  padding: 10px;
-}
-  
 .cftextbox{
     padding-top: 50px;
     text-align: center;
@@ -445,15 +437,33 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
     vertical-align: middle;
     
 }
+.cfrow{
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  position:relative;
+  background:url(../images/about/design.png)no-repeat;
+  /* opacity: 0.3; */
+  background-size:cover;
+  background-position: center;
+  height:650px;
+  
+  
+    
+  
+}
+  
 .designcolumn{
     width: 100%;
 }
-.designpic{
-    width: auto ;
-}
+
 .cftextbox p{
     vertical-align: middle;
     text-align: center;
+    opacity: 1;
 }
 /*-------------------------------------
         9. Portfolio
