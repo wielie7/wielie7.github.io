@@ -463,7 +463,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
 .cftextbox p{
     vertical-align: middle;
     text-align: center;
-    opacity: 1;
+
+    font-size:16px;
+    color: #3c4258;
+    text-transform: initial;
+    line-height: 2;
 }
 /*-------------------------------------
         9. Portfolio
