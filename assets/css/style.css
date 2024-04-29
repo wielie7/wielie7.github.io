@@ -483,6 +483,28 @@ padding-bottom: 50px;}
     padding-top: 30px;
     text-align: center;
 }
+.cfrow{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    position:relative;
+    
+    background:url(../images/about/design.png)no-repeat;
+    /* opacity: 0.3; */
+    background-size:cover;
+    background-position: center;
+    height:650px;
+    
+    
+    
+    
+}
+.cfrow.cfrow.background {
+    opacity: 0.3;
+}
 .cftextbox{
     padding-top: 50px;
     text-align: center;
@@ -490,25 +512,6 @@ padding-bottom: 50px;}
     height: 80%;
     vertical-align: middle;
     
-}
-.cfrow{
-    display: grid;
-  grid-template-columns: auto auto auto auto;
-  
-  display: flex;
-  align-items: center;
-  /* justify-content: center; */
-  position:relative;
- 
- background:url(../images/about/design.png)no-repeat;
-  /* opacity: 0.3; */
-  background-size:cover;
-  background-position: center;
-  height:650px;
-  
-  
-    
-  
 }
   
 

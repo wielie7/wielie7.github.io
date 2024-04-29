@@ -16,14 +16,20 @@ $(document).ready(function() {
             opacity = 1 - (scrollTop - distanceToTop) / elementHeight;
         }
         
-        if (opacity >= 0) {
+        if (opacity > 0) {
             welcomeContainer.style.opacity = opacity;
+            welcomeContainer.style.display = null;
+        } else{
+            welcomeContainer.style.opacity = 0;
+            welcomeContainer.style.display = 'none';
         }
+
     }
     
     function scrollHandler() {
         fadeOutOnScrollFromTop(welcomeTopContainer);
     }
     
+    $("html, body").animate({ scrollTop: 0 }, "slow");
     window.addEventListener('scroll', scrollHandler);
 });
