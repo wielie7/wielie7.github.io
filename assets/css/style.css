@@ -436,6 +436,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
     clear: both;
     display: table;
   }
+  #aboutrow{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   .centered {
     display: flex;
     justify-content: center;
@@ -488,7 +492,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
   align-items: center;
   /* justify-content: center; */
   position:relative;
-  background:url(../images/about/design.png)no-repeat;
+ 
+ background:url(../images/about/design.png)no-repeat;
   /* opacity: 0.3; */
   background-size:cover;
   background-position: center;
@@ -499,6 +504,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
   
 }
   
+
+
 .designcolumn{
     width: 100%;
 }
