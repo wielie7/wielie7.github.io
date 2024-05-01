@@ -110,15 +110,14 @@
 	  @media screen and (max-width: 992px) {
 		#CollectionRows {
 		  display: none;
+		  padding-bottom:30px;
 		} 
 
 		#colpad{
 			padding-bottom: 0;
 		}
-		.collections{
-			padding-bottom:0px;
-		}
 
+		
 		#CollectionSlides{
 			display:block;
 		}   
