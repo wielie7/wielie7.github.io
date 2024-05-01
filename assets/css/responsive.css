@@ -158,8 +158,9 @@
 	
 	.single-about-img{height:334px; top: 0px;}
 	.single-about-img img{height:302px}
-	.about-content{padding-bottom: 0px;}
+	.about-content{padding-bottom: 0px;padding-top: 30px;}
 	.isotope .item {max-width: 350px;margin: 0 auto 30px;}
+	
 
 	/* .single-profile {max-width: 350px; margin: 30px auto;border: 0;} */
 	.profile-border{border: 0;}
@@ -192,10 +193,10 @@
 		padding-bottom:0px;
 
 	}
-	.carousel-caption h3{
+	.Slides h3{
 		font-size: 22px;
 	}
-	.carousel-caption p{
+	.Slides p{
 		font-size:12px;
 		height: 100%;
 	}
