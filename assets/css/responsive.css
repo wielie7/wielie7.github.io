@@ -1,3 +1,9 @@
+
+
+
+
+
+
 @media screen and (max-width:1680px){
 	
 
@@ -105,6 +111,10 @@
 		#CollectionSlides{
 			display:none;
 		} 
+
+		.Collections-content{
+			padding-bottom: 30px;
+		}
 	  }
 	  
 	  @media screen and (max-width: 992px) {
@@ -114,6 +124,9 @@
 		} 
 
 		#colpad{
+			padding-bottom: 0;
+		}
+		.Collections-content{
 			padding-bottom: 0;
 		}
 
@@ -288,3 +301,19 @@
 	
 }/*max-width:320px*/
 
+@media screen and (min-width: 1920px){
+	nav.navbar.bootsnav.navbar-fixed {
+		
+		width: 1920px;
+	}
+
+	.collections-row{height: 606px}
+	#CollectionRows{width:1632px}
+}
+
+@media screen and (min-width: 1660px){
+	
+
+	.collections-row{height: 606px}
+	#CollectionRows{width:1632px}
+}
