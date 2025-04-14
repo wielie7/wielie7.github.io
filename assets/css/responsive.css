@@ -70,7 +70,8 @@
 
 @media screen and (max-width:992px){
 	nav.navbar.bootsnav .navbar-collapse.collapse.in {padding-bottom: 30px;}
-	nav.navbar.bootsnav .navbar-toggle {display: inline-block; float: right ;margin-right: 0;margin-top: 21px;}
+	/* nav.navbar.bootsnav .navbar-toggle {display: inline-block; float: right ;margin-right: 0;margin-top: 21px;} */
+	nav.navbar.bootsnav .navbar-toggle {display: inline-block;  ;margin-right: 0;margin-top: 21px;}
 	nav.navbar.bootsnav .navbar-brand {float: left!important;}
 	nav.navbar.bootsnav ul.nav > li > a {padding: 15px 0px;border: transparent;}
 
