@@ -27,11 +27,18 @@ $(document).ready(function() {
     }
     
     function scrollHandler() {
+        
         fadeOutOnScrollFromTop(welcomeTopContainer);
-    }
+    } 
     
-    $("html, body").animate({ scrollTop: 0 }, "slow");
-    window.addEventListener('scroll', scrollHandler);
+    if (!window.location.href.includes("#")) {
+        
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+
+        } else{
+    scrollHandler()
+            }
+        window.addEventListener('scroll', scrollHandler);
 
 
     

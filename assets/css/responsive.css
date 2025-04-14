@@ -32,15 +32,21 @@
 	.collections-row{
 		height: 359px;
 	}
+/* #halfsize{
+	height: 180px;
+} */
+	.collections-row h3{
+		padding-top: 0%;
+		padding-bottom: 0%;
+		font-size: 25px;
+	}
 
 	.timeline-content span>i, .experience-time span>i {left: -15.5%;}
 }/*max-width:1199px*/
 
 @media screen and (max-width:1024px){
 
-	.collections-row h3{
-		font-size: 30px;
-	}
+	
 	.cftextbox p{
 		line-height: 2 ;
 		padding-top:90px;
@@ -61,13 +67,14 @@
 	nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li .megamenu-sub-txt a{margin-bottom: 15px;}
 }/*max-width:1008px*/
 
+
 @media screen and (max-width:992px){
 	nav.navbar.bootsnav .navbar-collapse.collapse.in {padding-bottom: 30px;}
 	nav.navbar.bootsnav .navbar-toggle {display: inline-block; float: right ;margin-right: 0;margin-top: 21px;}
 	nav.navbar.bootsnav .navbar-brand {float: left!important;}
 	nav.navbar.bootsnav ul.nav > li > a {padding: 15px 0px;border: transparent;}
 
-	.collections-row h3{font-size: 25px;}
+	
 
 	
 	.designcolumn{  
@@ -104,9 +111,9 @@
 /* Collections Grid and Slide for desktop and mobile */
 	
 	@media screen and (min-width: 992px) {
-		#CollectionRows {
+		/* #CollectionRows {
 		  display: block;
-		}
+		} */
 
 		#CollectionSlides{
 			display:none;
@@ -122,16 +129,14 @@
 	  }
 	  
 	  @media screen and (max-width: 992px) {
-		#CollectionRows {
+		/* #CollectionRows {
 		  display: none;
 		  padding-bottom:30px;
-		} 
+		}  */
 
-		#colpad{
-			padding-bottom: 0;
-		}
+		
 		.Collections-content{
-			padding-bottom: 0;
+			padding-bottom: 30px;
 		}
 
 
@@ -140,6 +145,10 @@
 		#CollectionSlides{
 			display:block;
 		}   
+		.collections-row h3{font-size: 20px; 
+			padding-top: 0%;
+			padding-bottom: 23px;
+		}
 
 	  }
 
@@ -191,6 +200,9 @@
 			height:278px ;
 		}
 		
+		/* #halfsize{
+			height: 139px;
+		} */
 		
 		
 		
@@ -206,7 +218,12 @@
 			font-size: 41px;
 			font-weight: 400;
 		}
+		.collections-row h3{
+			padding-top: 0%;
+			padding-bottom: 22px;
+		}
 }
+
 
 @media screen and (max-width:768px){
     
@@ -220,7 +237,7 @@
 	.single-about-img img{height:302px}
 	.about-content{padding-bottom: 0px;padding-top: 30px;}
 	.isotope .item {max-width: 350px;margin: 0 auto 30px;}
-	
+
 
 	/* .single-profile {max-width: 350px; margin: 30px auto;border: 0;} */
 	.profile-border{border: 0;}
@@ -229,9 +246,19 @@
 
 	.collections-row{
 		width: 660px;
-		height: 244px;
+		height: 1000px;
 		margin-left: auto;
     	margin-right: auto;
+		grid-template-columns: auto;
+	}
+
+	#halfsize{
+		height: 500px;
+	}
+	.collections-row h3{
+		padding-top: 1%;
+		padding-bottom: 5%;
+		font-size: 25px;
 	}
 
 	.cftextbox p{
@@ -248,14 +275,41 @@
 		font-weight: 400;
 	}
 
-}/*max-width:767px*/
+	.fspine-wide{
+		display:none !important;
+	}
+
+	.fspine-mobile{
+		display:block;
+	}
+	
+}
+	  
+@media screen and (min-width:767px){
+	.fspine-mobile{
+		display:none;
+	}
+}
+
+/*max-width:767px*/
+
+/* @media screen and (min-width:767px){
+
+#fspine{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)), url(assets/images/portfolio/fspine.jpg); background-size: cover;
+}
+} */
 
 @media screen and (max-width: 660px){
 	.collections-row{
 		width: 640px;
-		height: 237px;
+		height: 970px;
 		margin-left: auto;
     	margin-right: auto;
+	}
+
+	#halfsize{
+		height: 485px;
 	}
 	.collections-row h3{font-size: 22px;}
 
@@ -286,9 +340,12 @@
 @media screen and (max-width: 640px){
 	.collections-row{
 		width: 580px;
-		height: 215px;
+		height: 878px;
 		margin-left: auto;
     	margin-right: auto;
+	}
+	#halfsize{
+		height: 439px;
 	}
 
 }/*max-width:640px*/
@@ -296,9 +353,13 @@
 @media screen and (max-width: 580px){
 	.collections-row{
 		width: 540px;
-		height: 200px;
+		height: 818px;
 		margin-left: auto;
     	margin-right: auto;
+	}
+
+	#halfsize{
+		height: 409px;
 	}
 	.collections-row h3{font-size: 18px;}
 
@@ -320,7 +381,7 @@
 	.subscribe-title h2 {font-size: 24px;}
 	.collections-row{
 		width: 480px;
-		height: 178px;
+		height: 729px;
 		margin-left: auto;
     	margin-right: auto;
 	}
@@ -338,9 +399,13 @@
 @media screen and (max-width: 480px){
 	.collections-row{
 		width: 400px;
-		height: 148px;
+		height: 606px;
 		margin-left: auto;
     	margin-right: auto;
+	}
+
+	#halfsize{
+		height: 303px;
 	}
 	.collections-row h3{font-size: 14px;}
 
@@ -365,9 +430,12 @@
 	}
 	.collections-row{
 		width: 350px;
-		height: 130px;
+		height: 530px;
 		margin-left: auto;
     	margin-right: auto;
+	}
+	#halfsize{
+		height: 265px;
 	}
 
 	.cftextbox p{
@@ -393,9 +461,12 @@
 @media screen and (max-width:350px){
 	.collections-row{
 		width: 320px;
-		height: 119px;
+		height: 484px;
 		margin-left: auto;
     	margin-right: auto;
+	}
+	#halfsize{
+		height: 242px;
 	}
 
 	.carousel-caption2 p{
@@ -420,11 +491,42 @@
 
 	.collections-row{height: 606px}
 	#CollectionRows{width:1632px}
+	/* #halfsize{
+		height: 303px;
+	} */
 }
 
 @media screen and (min-width: 1660px){
 	
 
-	.collections-row{height: 606px}
+	.collections-row{
+		height: 606px;
+		
+	}
+	/* #halfsize{
+		height: 303px;
+	} */
+
+	.collections-row h3{
+
+		padding-top: 6px;
+        padding-bottom: 2%;
+		
+	}
 	#CollectionRows{width:1632px}
+
+	
+}
+@media screen and (max-width: 1660px){
+	
+
+	
+
+	/* .collections-row h3{
+		padding-top: 0%;
+		padding-bottom: 5%;
+	} */
+	
+
+	
 }

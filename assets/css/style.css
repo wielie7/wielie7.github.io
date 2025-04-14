@@ -225,6 +225,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.5;
+    padding-top: 40px;
 }
 .header-text h2 span {color: #fff;}
 .header-text p {
@@ -232,7 +233,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
     font-size: 20px;
     font-weight: 300;
     text-transform: uppercase;
-    margin: 30px 0 60px;
+    margin: 00px 0 60px;
     letter-spacing: 1px;
 }
 .header-text a {
@@ -302,6 +303,7 @@ padding-bottom: 50px;}
     max-width: 500px;
     
     max-height: 486px;
+    border-radius: 12px;
 }
 .about-list-icon{
     display: flex;
@@ -311,8 +313,9 @@ padding-bottom: 50px;}
     bottom: 0;
     left: 0;
     width:100%;
-    height: 90px;
+    height: 62px;
     background: #1f2c6c;
+    border-radius: 12px;
 }
 /*.ab-list-icon */
 .about-list-icon ul {
@@ -356,6 +359,39 @@ padding-bottom: 50px;}
     padding-bottom: 30px;
 }
 
+
+
+.coli{
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+}
+
+.coli:hover{
+    transform: scale(1.01);
+}
+
+
+a.coli-link {
+    display: block;
+    text-decoration: none;
+    border-radius: 16px; /* 👈 rounded corners */
+    overflow: hidden;
+  }
+  
+  .coli {
+    height: 100%;
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .coli:hover {
+    transform: scale(1.01);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  
 .Collections{
     
     
@@ -368,14 +404,19 @@ padding-bottom: 50px;}
     font-size: 30px;
 }
 #ColTitle{
-    width: 100%;
+    width: 60%;
     /* background-color: #00000028; */
     color: #ffffff;
     position:absolute;
 
     bottom: 10%;
-    line-height: 100%;
+   
     height: 8%;
+
+    border-style: solid;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-width: 1px;
 }
 .blur{
     height: 70px;
@@ -476,7 +517,24 @@ padding-bottom: 50px;}
   }
  
  
-
+  .wide-img {
+    display: block;
+  }
+  
+  .mobile-img {
+    display: none;
+  }
+  
+  /* Mobile: hide wide, show 4:3 */
+  @media (max-width: 768px) {
+    .wide-img {
+      display: none;
+    }
+  
+    .mobile-img {
+      display: block;
+    }
+  }
 
 
 /*-------------------------------------
@@ -573,6 +631,15 @@ padding-bottom: 50px;}
     
     border-top: 1px solid #e5ebf2;
 }
+
+.carousel img {
+    max-height: 85vh; 
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+
 .portfolio-details{
     padding-top: 50px;
     border-top: 1px solid #e5ebf2;
@@ -866,4 +933,87 @@ padding-bottom: 50px;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
+
+
+/*===================Fecit Platform Page=============================*/
+
+.product-detail {
+    background-color: #fffcfa;
+    padding: 60px 5%;
+    color: #fff;
+    padding-bottom:150px;
+  }
+  
+  .product-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 60px;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .product-images {
+    flex: 1 1 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .thumbnails {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  
+  .thumbnails img {
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.3s ease;
+  }
+  
+  .thumbnails img:hover {
+    border: 2px solid #aaa;
+    
+        transform: scale(1.05);
+      
+  }
+  
+  .product-info {
+    flex: 1 1 400px;
+    max-width: 500px;
+  }
+  
+  .product-info h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #5b5b5b;
+    margin-bottom: 20px;
+  }
+  
+  .material,
+  .dimensions {
+    font-weight: 600;
+    color: #bbb;
+    margin-top: 10px;
+  }
 /*========================Thank you=================
