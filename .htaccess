@@ -1,4 +1,1 @@
-#Alternate default index page
-DirectoryIndex first.html
-
-ErrorDocument 404 /index.html
+ErrorDocument 404 /home.html
