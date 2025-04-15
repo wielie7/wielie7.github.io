@@ -283,12 +283,31 @@
 	.fspine-mobile{
 		display:block;
 	}
+
+	/* product detail page title responsiveness */
+
+	.product-images h1{
+		display: block;
+	}
+
+	.product-info h1{
+		display:none;
+	}
+
+	.product-container{
+		flex-wrap:wrap;
+	}
+	
 	
 }
 	  
-@media screen and (min-width:767px){
+@media screen and (min-width:768px){
 	.fspine-mobile{
 		display:none;
+	}
+
+	.product-images h1{
+		display: none;
 	}
 }
 

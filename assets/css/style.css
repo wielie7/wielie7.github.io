@@ -950,7 +950,7 @@ a.coli-link {
     gap: 60px;
     align-items: flex-start;
     justify-content: center;
-    max-width: 1200px;
+    max-width: 1260px;
     margin: auto;
   }
   
@@ -1015,5 +1015,10 @@ a.coli-link {
     font-weight: 600;
     color: #bbb;
     margin-top: 10px;
+  }
+
+  .product-images h1{
+    font-size: 28px;
+    margin-bottom: 30px;
   }
 /*========================Thank you=================
