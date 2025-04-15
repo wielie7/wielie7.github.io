@@ -99,6 +99,7 @@
 			background:url(../images/about/designm.png)no-repeat;
 			background-size: cover;
 			background-position: center;
+			height: 500px;
 		}
 		
 		
@@ -298,7 +299,7 @@
 		flex-wrap:wrap;
 	}
 	
-	
+
 	
 }
 	  
