@@ -42,7 +42,7 @@ $(document).ready(function() {
 
     function showToast() {
         Toastify({
-            text: "Thank you, we have received your message and will contact you at sometime in the very very far away fututre coz i never check my emails lmao",
+            text: "Message Sent!",
             duration: 5000,
             newWindow: true,
             close: true,
