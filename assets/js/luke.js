@@ -40,6 +40,36 @@ $(document).ready(function() {
             }
         window.addEventListener('scroll', scrollHandler);
 
+    function showToast() {
+        Toastify({
+            text: "Thank you, we have received your message and will contact you at sometime in the very very far away fututre coz i never check my emails lmao",
+            duration: 5000,
+            newWindow: true,
+            close: true,
+            gravity: "top", // `top` or `bottom`
+            position: "center", // `left`, `center` or `right`
+            stopOnFocus: true, // Prevents dismissing of toast on hover
+            style: {
+              background: "linear-gradient(to right, #00b09b, #96c93d)",
+            }
+          }).showToast();
+    }
+
+
+    function findGetParams(parameter_name) {
+        var result = null;
+        var tmp = [];
+
+        window.location.search.substr(1).split("&").forEach(function (item){ 
+            tmp = item.split("=");
+            if (tmp[0] == parameter_name) result = decodeURIComponent(tmp[1]);
+        });
+        return result;
+    }
+
+    if (findGetParams("callback") == "contact") {
+        showToast();
+    }
 
     
 });
