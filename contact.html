@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | FECIT Furniture</title>
+    <meta name="description" content="Contact FECIT to discuss a furniture commission, collaboration or existing piece.">
+    <link rel="icon" href="assets/logo/favicon.png">
+    <link rel="stylesheet" href="assets/css/contact-page.css">
+</head>
+<body>
+    <nav class="contact-nav" aria-label="Main navigation">
+        <a class="contact-nav__brand" href="./">FECIT</a>
+        <div class="contact-nav__links">
+            <a href="./#Collections">Furniture</a>
+            <a href="./about">About</a>
+        </div>
+    </nav>
+
+    <main class="contact-page">
+        <section class="contact-intro" aria-labelledby="contact-title">
+            <div>
+                <p class="contact-kicker">Get in touch</p>
+                <h1 id="contact-title">Let’s make something.</h1>
+                <p class="contact-intro__lead">Whether you have a clear idea or the beginning of one, I’d be glad to hear about it.</p>
+            </div>
+
+            <div class="contact-details">
+                <div>
+                    <span>Email</span>
+                    <a href="mailto:wielan@fecit.co.za">wielan@fecit.co.za</a>
+                </div>
+                <div>
+                    <span>Phone</span>
+                    <a href="tel:+27607022078">060 702 2078</a>
+                </div>
+                <div>
+                    <span>Workshop</span>
+                    <p>Cape Town, South Africa</p>
+                </div>
+            </div>
+
+            <div class="contact-socials">
+                <a href="https://www.instagram.com/fecit_furniture/">Instagram</a>
+                <a href="https://www.linkedin.com/in/wielan-du-plessis-3b0649230/">LinkedIn</a>
+                <a href="https://www.facebook.com/FecitFurniture/">Facebook</a>
+            </div>
+        </section>
+
+        <section class="contact-form-panel" aria-label="Enquiry form">
+            <div class="contact-form-panel__heading">
+                <p class="contact-kicker">Your enquiry</p>
+                <h2>Tell me about the piece you have in mind.</h2>
+                <p>Useful details include its purpose, approximate size, intended space and desired timing. It’s fine if some of that is still uncertain.</p>
+            </div>
+
+            <p class="contact-success" role="status" hidden>Thank you. Your message has been sent.</p>
+
+            <form class="contact-form" action="https://formsubmit.co/5bb3a0cde35b11c0e29b4b5ac7f8ddf6" method="POST">
+                <input type="hidden" name="_next" value="https://fecit.co.za/contact?sent=true">
+                <input type="hidden" name="_subject" value="New FECIT furniture enquiry">
+                <input type="hidden" name="_captcha" value="false">
+                <input class="contact-form__honey" type="text" name="_honey" tabindex="-1" autocomplete="off">
+
+                <div class="contact-form__row">
+                    <label>Name<input type="text" name="name" autocomplete="name" required></label>
+                    <label>Email<input type="email" name="email" autocomplete="email" required></label>
+                </div>
+
+                <div class="contact-form__row">
+                    <label>Phone <span>(optional)</span><input type="tel" name="phone" autocomplete="tel"></label>
+                    <label>Enquiry type
+                        <select name="enquiry_type">
+                            <option value="Commission">Furniture commission</option>
+                            <option value="Existing piece">Existing piece</option>
+                            <option value="Collaboration">Collaboration</option>
+                            <option value="Other">Something else</option>
+                        </select>
+                    </label>
+                </div>
+
+                <label>Message<textarea name="message" rows="7" placeholder="Tell me a little about your idea…" required></textarea></label>
+
+                <button type="submit">Send enquiry <span aria-hidden="true">&rarr;</span></button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="contact-footer"><span>&copy; FECIT Furniture</span><a href="./">Back to home</a></footer>
+    <script>
+        if (new URLSearchParams(window.location.search).get('sent') === 'true') {
+            document.querySelector('.contact-success').hidden = false;
+        }
+    </script>
+</body>
+</html>
