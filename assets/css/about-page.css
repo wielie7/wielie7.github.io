@@ -58,3 +58,18 @@ a { color: inherit; }
     .about-contact__details { align-items: flex-start; flex-direction: column; gap: 17px; }
     .about-footer { padding: 25px 20px; }
 }
+
+@media (min-width: 1921px) {
+    .about-nav { padding-right: 5vw; padding-left: 5vw; }
+    .about-hero { grid-template-columns: minmax(0, .9fr) minmax(600px, 1.1fr); max-width: 2800px; margin: 0 auto; padding-right: 5vw; padding-left: 5vw; }
+    .about-hero h1 { font-size: clamp(130px, 7vw, 200px); }
+    .about-hero__intro { max-width: 700px; font-size: clamp(22px, 1vw, 30px); }
+    .about-hero__portrait { height: min(82vh, 1300px); }
+    .about-story__body { max-width: 2000px; margin: 0 auto; }
+    .about-story h2 { max-width: 1100px; font-size: clamp(70px, 4vw, 108px); }
+    .about-story__copy { max-width: 700px; }
+    .about-story__copy p { font-size: clamp(19px, .85vw, 25px); }
+    .about-name { grid-template-columns: minmax(450px, .75fr) minmax(0, 1.25fr); padding-right: max(8vw, calc((100vw - 2500px) / 2)); padding-left: max(8vw, calc((100vw - 2500px) / 2)); }
+    .about-name__meaning { max-width: 1050px; }
+    .about-contact { max-width: 2500px; margin: 0 auto; }
+}

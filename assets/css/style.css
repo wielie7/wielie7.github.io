@@ -43,8 +43,9 @@ body{
 	font-size:16px;
 	color: #202a4d;
 	background: #fff;
-    max-width:1920px;
-    margin:0 auto;
+	width:100%;
+	max-width:none;
+	margin:0 auto;
 	overflow-x:hidden;
 }
 
@@ -1691,6 +1692,30 @@ a.coli-link {
     }
 }
 
+
+@media (min-width: 1921px) {
+	.descriptions__content,
+	.featured-products__grid,
+	.commission-process__grid { max-width: 2000px; }
+	.descriptions { padding-top: 110px; padding-bottom: 110px; }
+	.descriptions__content { gap: 110px; }
+	.descriptions__text { max-width: 780px; }
+	.descriptions__text h2 { font-size: clamp(28px, 1.4vw, 42px); }
+	.descriptions__text p { font-size: clamp(18px, .85vw, 25px); }
+	.descriptions__image { height: clamp(500px, 24vw, 760px); }
+	.featured-products { padding-top: 55px; padding-bottom: 100px; }
+	.featured-products__grid { column-gap: 52px; row-gap: 80px; }
+	.product-card__title { font-size: clamp(18px, .75vw, 24px); }
+	.commission-process { padding-top: 145px; padding-bottom: 145px; }
+	.commission-process__heading { max-width: 940px; margin-bottom: 80px; }
+	.commission-process__heading h2 { font-size: clamp(40px, 2vw, 56px); }
+	.commission-process__heading > p:last-child { max-width: 800px; font-size: clamp(18px, .85vw, 24px); }
+	.process-panel__content h3,
+	.process-panel--intro .process-panel__content h3 { font-size: clamp(30px, 1.5vw, 42px); }
+	.process-panel__description { max-width: 560px; font-size: clamp(15px, .7vw, 20px); }
+	.about-feature { height: min(82vh, 1320px); }
+	.about-feature__content { max-width: 760px; }
+}
 
 /*-------------------------------------
         9. Portfolio

@@ -17,7 +17,7 @@ a { color: inherit; }
 .contact-details { display: grid; gap: 25px; padding-top: 28px; border-top: 1px solid rgba(255,255,255,.2); }
 .contact-details div { display: grid; grid-template-columns: 90px 1fr; align-items: baseline; gap: 16px; }
 .contact-details span { color: rgba(255,255,255,.46); font-size: 10px; letter-spacing: .14em; text-transform: uppercase; }
-.contact-details a, .contact-details p { margin: 0; color: rgba(255,255,255,.9); font-size: 14px; text-decoration: none; }
+.contact-details a, .contact-details p, .contact-details .contact-details__value { margin: 0; color: rgba(255,255,255,.9); font-size: 14px; letter-spacing: normal; text-decoration: none; text-transform: none; }
 .contact-socials { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 55px; }
 .contact-socials a { color: rgba(255,255,255,.58); font-size: 10px; letter-spacing: .14em; text-decoration: none; text-transform: uppercase; }
 
@@ -45,6 +45,17 @@ a { color: inherit; }
     .contact-page { grid-template-columns: 1fr; }
     .contact-intro { min-height: 760px; padding: 125px 25px 55px; }
     .contact-form-panel { padding: 85px 25px; }
+}
+
+@media (min-width: 1921px) {
+    .contact-page { grid-template-columns: minmax(700px, .9fr) minmax(900px, 1.1fr); width: 100%; max-width: 2800px; margin: 0 auto; }
+    .contact-intro { padding-right: 6vw; padding-left: 6vw; }
+    .contact-intro h1 { max-width: 850px; font-size: clamp(110px, 5.5vw, 160px); }
+    .contact-intro__lead { max-width: 650px; font-size: clamp(20px, .9vw, 27px); }
+    .contact-form-panel { padding-right: 7vw; padding-left: 7vw; }
+    .contact-form-panel__heading { max-width: 900px; }
+    .contact-form-panel h2 { font-size: clamp(58px, 3vw, 84px); }
+    .contact-form { max-width: 1050px; }
 }
 
 @media (max-width: 560px) {

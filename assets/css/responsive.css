@@ -508,7 +508,7 @@
 @media screen and (min-width: 1920px){
 	nav.navbar.bootsnav.navbar-fixed {
 		
-		width: 1920px;
+		width: 100%;
 	}
 
 	.collections-row{height: 606px}
