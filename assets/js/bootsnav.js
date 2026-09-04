@@ -151,11 +151,13 @@
             if( getNav.hasClass("no-background")){
                 $(window).on("scroll", function(){
                     var scrollTop = $(window).scrollTop();
-                    if(scrollTop >34){
-                        $(".navbar-fixed").removeClass("no-background");
-                    }else {
-                        $(".navbar-fixed").addClass("no-background");
-                    }
+                    var heroHalfway = $(".welcome-hero").outerHeight() / 2;
+
+if (scrollTop > heroHalfway) {
+    $(".navbar-fixed").removeClass("no-background");
+} else {
+    $(".navbar-fixed").addClass("no-background");
+}
                 });
             }
             
