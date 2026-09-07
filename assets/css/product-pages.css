@@ -65,6 +65,10 @@ a { color: inherit; }
 .product-gallery figure:hover img { transform: scale(1.015); }
 .product-gallery figure.product-gallery__quiet { grid-column: 2; width: 100%; margin: 0; }
 .product-gallery figure.product-gallery__quiet img { height: min(48vw, 720px); object-fit: cover; }
+/* Keep the complete photographs visible for pieces with a smaller image set. */
+.product-gallery--natural { align-items: start; }
+.product-gallery--natural figure img,
+.product-gallery--natural figure:not(:nth-child(3n + 1)) img { height: auto; }
 .product-gallery--pair figure { position: relative; aspect-ratio: 4 / 5; background: transparent; }
 .product-gallery--dining figure:nth-child(-n + 2) { aspect-ratio: 4 / 5; }
 .product-gallery--lounge figure { aspect-ratio: 4 / 5; }
@@ -99,6 +103,57 @@ a { color: inherit; }
     .pillar-product .product-hero--portrait { grid-template-columns: minmax(0, 1.2fr) minmax(320px, .8fr); }
     .pillar-product .product-hero--portrait > img { object-position: center 52%; }
 
+}
+
+/* Compact photographs keep the furniture at a comfortable viewing size. */
+.compact-product .product-hero--portrait {
+    grid-template-columns: minmax(0, 620px) minmax(0, 1fr);
+    align-items: center;
+    max-width: 1440px;
+    height: auto;
+    min-height: 0;
+    margin: 0 auto;
+    padding: 140px 5vw 65px;
+}
+.compact-product .product-hero--portrait > img {
+    width: 100%;
+    max-width: 620px;
+    height: auto;
+    aspect-ratio: auto;
+    object-fit: contain;
+}
+.compact-product .product-hero__title { padding-bottom: 0; }
+.compact-product .product-hero h1 { font-size: clamp(48px, 6vw, 90px); }
+.compact-product .product-gallery {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 40px;
+    gap: 40px;
+}
+.compact-product .product-gallery figure:nth-child(n) { grid-column: auto; }
+.compact-product .product-gallery figure img { height: auto; min-height: 0; }
+/* Crop the outdoor photographs in the layout; the viewer retains the full photo. */
+.risibiki-product .product-hero--portrait > img,
+.risibiki-product .product-gallery figure img {
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center bottom;
+}
+.reef-product .product-hero--portrait > img,
+.reef-product .product-gallery figure img {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    object-position: center bottom;
+}
+.reef-product .product-gallery .reef-product__end-view img {
+    aspect-ratio: 1;
+    object-position: 45% bottom;
+}
+@media (max-width: 720px) {
+    .compact-product .product-hero--portrait { padding: 105px 24px 35px; }
+    .compact-product .product-hero--portrait > img { max-width: 480px; }
+    .compact-product .product-hero h1 { font-size: clamp(48px, 12vw, 72px); }
+    .compact-product .product-gallery { max-width: 560px; padding: 0 24px; gap: 28px; }
 }
 
 @media (min-width: 721px) {
@@ -140,6 +195,8 @@ a { color: inherit; }
     .product-gallery { grid-template-columns: 1fr; gap: 20px; padding: 0 36px; }
     .product-gallery figure:nth-child(3n + 1) { grid-column: auto; }
     .product-gallery img, .product-gallery figure:not(:nth-child(3n + 1)) img { height: 72vw; min-height: 330px; }
+    .product-gallery--natural figure img,
+    .product-gallery--natural figure:not(:nth-child(3n + 1)) img { height: auto; min-height: 0; }
     .product-gallery figure.product-gallery__quiet { grid-column: auto; width: 100%; margin: 0; }
     .product-gallery figure.product-gallery__quiet img { height: 72vw; min-height: 330px; }
     .product-gallery--pair figure img { position: absolute; right: 0; bottom: 0; left: 0; width: 100%; height: auto; min-height: 100%; object-fit: cover; }
