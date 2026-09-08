@@ -6,14 +6,15 @@
     <title>About Wielan du Plessis | FECIT</title>
     <meta name="description" content="Meet Wielan du Plessis, the Cape Town furniture maker behind FECIT.">
     <link rel="icon" href="assets/logo/favicon.png">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/site-icons.css">
+    <link rel="stylesheet" href="assets/css/site-animations.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/bootsnav.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/about-page.css">
+<link rel="preload" href="assets/fonts/poppins-latin-600-v24.woff2" as="font" type="font/woff2" crossorigin>
 </head>
 <body>
     <header class="top-area">
@@ -31,7 +32,7 @@
                         <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                             <li><a href="./#Home">Home</a></li>
                             <li class="active"><a href="./about" aria-current="page">About</a></li>
-                            <li><a href="./#CustomFurniture">Comissions</a></li>
+                            <li><a href="./#CustomFurniture">Commissions</a></li>
                             <li><a href="./archive">Archive</a></li>
                             <li><a href="./contact">Contact</a></li>
                         </ul>
@@ -50,7 +51,7 @@
                 <p class="about-hero__intro">Furniture maker, designer and woodworker based in Cape Town, South Africa.</p>
             </div>
             <figure class="about-hero__portrait">
-                <img src="assets/images/about/portrait-wielan-studio.jpg" alt="Portrait of Wielan du Plessis in his workshop">
+                <picture><source type="image/webp" srcset="assets/images/optimized/portrait-wielan-studio-b78ad3c312b0-1200.webp 1200w, assets/images/optimized/portrait-wielan-studio-b78ad3c312b0-1520.webp 1520w" sizes="(max-width: 760px) 90vw, 50vw"><img src="assets/images/optimized/portrait-wielan-studio-b78ad3c312b0-fallback.jpg" alt="Portrait of Wielan du Plessis in his workshop" width="1520" height="1960" loading="eager" fetchpriority="high" decoding="async"></picture>
             </figure>
         </header>
 
@@ -90,9 +91,9 @@
     </main>
 
     <footer class="about-footer"><span>&copy; FECIT Furniture</span><a href="./">Back to home</a></footer>
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/bootsnav.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script defer src="assets/js/jquery.js"></script>
+    <script defer src="assets/js/bootstrap.min.js"></script>
+    <script defer src="assets/js/bootsnav.js"></script>
+    <script defer src="assets/js/custom.js"></script>
 </body>
 </html>

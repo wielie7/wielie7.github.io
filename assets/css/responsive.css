@@ -32,9 +32,6 @@
 	.collections-row{
 		height: 359px;
 	}
-/* #halfsize{
-	height: 180px;
-} */
 	.collections-row h3{
 		padding-top: 0%;
 		padding-bottom: 0%;
@@ -70,7 +67,6 @@
 
 @media screen and (max-width:992px){
 	nav.navbar.bootsnav .navbar-collapse.collapse.in {padding-bottom: 30px;}
-	/* nav.navbar.bootsnav .navbar-toggle {display: inline-block; float: right ;margin-right: 0;margin-top: 21px;} */
 	nav.navbar.bootsnav .navbar-toggle {display: inline-block;  ;margin-right: 0;margin-top: 21px;}
 	nav.navbar.bootsnav .navbar-brand {float: left!important;}
 	nav.navbar.bootsnav ul.nav > li > a {padding: 15px 0px;border: transparent;}
@@ -113,9 +109,6 @@
 /* Collections Grid and Slide for desktop and mobile */
 	
 	@media screen and (min-width: 992px) {
-		/* #CollectionRows {
-		  display: block;
-		} */
 
 		#CollectionSlides{
 			display:none;
@@ -131,10 +124,6 @@
 	  }
 	  
 	  @media screen and (max-width: 992px) {
-		/* #CollectionRows {
-		  display: none;
-		  padding-bottom:30px;
-		}  */
 
 		
 		.Collections-content{
@@ -202,9 +191,6 @@
 			height:278px ;
 		}
 		
-		/* #halfsize{
-			height: 139px;
-		} */
 		
 		
 		
@@ -232,16 +218,11 @@
 }/*max-width:768px*/
 
 @media screen and (max-width:767px){
-	/* .single-about-img {max-width: 450px;}
-	.single-about-img img{height:468px} */
 	
 	.single-about-img{height:334px; top: 0px;}
 	.single-about-img img{height:302px}
 	.about-content{padding-bottom: 0px;padding-top: 30px;}
 	.isotope .item {max-width: 350px;margin: 0 auto 30px;}
-
-
-	/* .single-profile {max-width: 350px; margin: 30px auto;border: 0;} */
 	.profile-border{border: 0;}
 
 	.single-horizontal-timeline {max-width: 350px;margin: 30px auto;}
@@ -314,13 +295,6 @@
 }
 
 /*max-width:767px*/
-
-/* @media screen and (min-width:767px){
-
-#fspine{
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)), url(../images/portfolio/stump-stools-wide.jpg); background-size: cover;
-}
-} */
 
 @media screen and (max-width: 660px){
 	.collections-row{
@@ -513,9 +487,6 @@
 
 	.collections-row{height: 606px}
 	#CollectionRows{width:1632px}
-	/* #halfsize{
-		height: 303px;
-	} */
 }
 
 @media screen and (min-width: 1660px){
@@ -525,9 +496,6 @@
 		height: 606px;
 		
 	}
-	/* #halfsize{
-		height: 303px;
-	} */
 
 	.collections-row h3{
 
@@ -544,10 +512,6 @@
 
 	
 
-	/* .collections-row h3{
-		padding-top: 0%;
-		padding-bottom: 5%;
-	} */
 	
 
 	

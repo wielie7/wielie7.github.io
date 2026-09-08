@@ -1,0 +1,863 @@
+{
+  "before": {
+    "desktop": {
+      "lighthouseVersion": "12.8.2",
+      "settings": {
+        "output": "json",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1440,
+          "height": 900,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "metrics": {
+        "largest-contentful-paint": 6036.8222000000005,
+        "speed-index": 1063.934461061662,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.0003251674489883402,
+        "total-byte-weight": 15972446
+      },
+      "lcpBreakdown": {
+        "type": "list",
+        "items": [
+          {
+            "type": "table",
+            "headings": [
+              {
+                "key": "label",
+                "valueType": "text",
+                "label": "Subpart"
+              },
+              {
+                "key": "duration",
+                "valueType": "ms",
+                "label": "Duration"
+              }
+            ],
+            "items": [
+              {
+                "subpart": "timeToFirstByte",
+                "label": "Time to first byte",
+                "duration": 7.663
+              },
+              {
+                "subpart": "resourceLoadDelay",
+                "label": "Resource load delay",
+                "duration": 791.445
+              },
+              {
+                "subpart": "resourceLoadDuration",
+                "label": "Resource load duration",
+                "duration": 5.518
+              },
+              {
+                "subpart": "elementRenderDelay",
+                "label": "Element render delay",
+                "duration": 121.955
+              }
+            ]
+          },
+          {
+            "type": "node",
+            "lhId": "page-6-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,4,SECTION,1,DIV",
+            "selector": "body > div.wrapper > section#Home > div.hero-image",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 900,
+              "left": 446,
+              "right": 1440,
+              "width": 994,
+              "height": 900
+            },
+            "snippet": "<div class=\"hero-image\">",
+            "nodeLabel": "body > div.wrapper > section#Home > div.hero-image"
+          }
+        ]
+      },
+      "longTasks": [],
+      "fullPageResourceBytes": 26208413,
+      "errors": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:53747/assets/images/description/slatted-bench-joinery-detail.png",
+          "width": 585,
+          "height": 384,
+          "complete": true,
+          "naturalWidth": 1173
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/collections/bench-01/01-three-quarter-view.jpg",
+          "width": 605,
+          "height": 403,
+          "complete": true,
+          "naturalWidth": 5787
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/collections/bench-02/01-three-quarter-view.jpg",
+          "width": 605,
+          "height": 403,
+          "complete": true,
+          "naturalWidth": 6000
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/collections/lounge-chair-01/01-front-three-quarter.jpg",
+          "width": 605,
+          "height": 403,
+          "complete": true,
+          "naturalWidth": 4000
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/collections/console-table-01/01-three-quarter-view.jpg",
+          "width": 605,
+          "height": 403,
+          "complete": true,
+          "naturalWidth": 6000
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/collections/cabinet-01/01-three-quarter-view.jpg",
+          "width": 605,
+          "height": 403,
+          "complete": true,
+          "naturalWidth": 4000
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/collections/lounge-chair-02/01-front-three-quarter.jpg",
+          "width": 605,
+          "height": 403,
+          "complete": true,
+          "naturalWidth": 3756
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/commissions/bench-concept-sketch.jpeg",
+          "width": 385,
+          "height": 288,
+          "complete": true,
+          "naturalWidth": 1215
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/commissions/bench-cad-render.png",
+          "width": 385,
+          "height": 288,
+          "complete": true,
+          "naturalWidth": 1920
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/commissions/slatted-bench-joinery-detail.png",
+          "width": 385,
+          "height": 288,
+          "complete": true,
+          "naturalWidth": 1173
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/about/portrait-wielan-studio.jpg",
+          "width": 1520,
+          "height": 1960,
+          "complete": true,
+          "naturalWidth": 1520
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/about/workbench.jpeg",
+          "width": 1440,
+          "height": 738,
+          "complete": true,
+          "naturalWidth": 4160
+        }
+      ]
+    },
+    "mobile": {
+      "lighthouseVersion": "12.8.2",
+      "settings": {
+        "output": "json",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "metrics": {
+        "largest-contentful-paint": 34526.926400000026,
+        "speed-index": 3609.6681999999996,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "total-byte-weight": 11986045
+      },
+      "lcpBreakdown": {
+        "type": "list",
+        "items": [
+          {
+            "type": "table",
+            "headings": [
+              {
+                "key": "label",
+                "valueType": "text",
+                "label": "Subpart"
+              },
+              {
+                "key": "duration",
+                "valueType": "ms",
+                "label": "Duration"
+              }
+            ],
+            "items": [
+              {
+                "subpart": "timeToFirstByte",
+                "label": "Time to first byte",
+                "duration": 3.021
+              },
+              {
+                "subpart": "resourceLoadDelay",
+                "label": "Resource load delay",
+                "duration": 342.395
+              },
+              {
+                "subpart": "resourceLoadDuration",
+                "label": "Resource load duration",
+                "duration": 3.951
+              },
+              {
+                "subpart": "elementRenderDelay",
+                "label": "Element render delay",
+                "duration": 133.155
+              }
+            ]
+          },
+          {
+            "type": "node",
+            "lhId": "page-3-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,4,SECTION,1,DIV",
+            "selector": "body > div.wrapper > section#Home > div.hero-image",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 768,
+              "left": 165,
+              "right": 412,
+              "width": 247,
+              "height": 768
+            },
+            "snippet": "<div class=\"hero-image\">",
+            "nodeLabel": "body > div.wrapper > section#Home > div.hero-image"
+          }
+        ]
+      },
+      "longTasks": [
+        {
+          "url": "http://127.0.0.1:53747/",
+          "duration": 101,
+          "startTime": 822.5041
+        },
+        {
+          "url": "Unattributable",
+          "duration": 67,
+          "startTime": 754.5041
+        }
+      ],
+      "fullPageResourceBytes": 26208413,
+      "errors": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:53747/assets/images/description/slatted-bench-joinery-detail.png",
+          "width": 351,
+          "height": 280,
+          "complete": true,
+          "naturalWidth": 1173
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/collections/bench-01/01-three-quarter-view.jpg",
+          "width": 351,
+          "height": 234,
+          "complete": true,
+          "naturalWidth": 5787
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/collections/bench-02/01-three-quarter-view.jpg",
+          "width": 351,
+          "height": 234,
+          "complete": true,
+          "naturalWidth": 6000
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/collections/lounge-chair-01/01-front-three-quarter.jpg",
+          "width": 351,
+          "height": 234,
+          "complete": true,
+          "naturalWidth": 4000
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/collections/console-table-01/01-three-quarter-view.jpg",
+          "width": 351,
+          "height": 234,
+          "complete": true,
+          "naturalWidth": 6000
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/collections/cabinet-01/01-three-quarter-view.jpg",
+          "width": 351,
+          "height": 234,
+          "complete": true,
+          "naturalWidth": 4000
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/collections/lounge-chair-02/01-front-three-quarter.jpg",
+          "width": 351,
+          "height": 234,
+          "complete": true,
+          "naturalWidth": 3756
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/commissions/bench-concept-sketch.jpeg",
+          "width": 351,
+          "height": 263,
+          "complete": true,
+          "naturalWidth": 1215
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/commissions/bench-cad-render.png",
+          "width": 351,
+          "height": 263,
+          "complete": true,
+          "naturalWidth": 1920
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/commissions/slatted-bench-joinery-detail.png",
+          "width": 351,
+          "height": 263,
+          "complete": true,
+          "naturalWidth": 1173
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/about/portrait-wielan-studio.jpg",
+          "width": 1520,
+          "height": 1960,
+          "complete": true,
+          "naturalWidth": 1520
+        },
+        {
+          "src": "http://127.0.0.1:53747/assets/images/about/workbench.jpeg",
+          "width": 390,
+          "height": 608,
+          "complete": true,
+          "naturalWidth": 4160
+        }
+      ]
+    }
+  },
+  "after": {
+    "desktop": {
+      "lighthouseVersion": "12.8.2",
+      "settings": {
+        "output": "json",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1440,
+          "height": 900,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "metrics": {
+        "largest-contentful-paint": 1184.9097500000003,
+        "speed-index": 569.9639,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.0007279138803155007,
+        "total-byte-weight": 957959
+      },
+      "lcpBreakdown": {
+        "type": "list",
+        "items": [
+          {
+            "type": "table",
+            "headings": [
+              {
+                "key": "label",
+                "valueType": "text",
+                "label": "Subpart"
+              },
+              {
+                "key": "duration",
+                "valueType": "ms",
+                "label": "Duration"
+              }
+            ],
+            "items": [
+              {
+                "subpart": "timeToFirstByte",
+                "label": "Time to first byte",
+                "duration": 6.941
+              },
+              {
+                "subpart": "resourceLoadDelay",
+                "label": "Resource load delay",
+                "duration": 69.747
+              },
+              {
+                "subpart": "resourceLoadDuration",
+                "label": "Resource load duration",
+                "duration": 29.887
+              },
+              {
+                "subpart": "elementRenderDelay",
+                "label": "Element render delay",
+                "duration": 134.534
+              }
+            ]
+          },
+          {
+            "type": "node",
+            "lhId": "page-0-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,1,SECTION,1,DIV,0,PICTURE,3,IMG",
+            "selector": "section#Home > div.hero-image > picture > img",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 900,
+              "left": 446,
+              "right": 1440,
+              "width": 994,
+              "height": 900
+            },
+            "snippet": "<img src=\"http://127.0.0.1:57482/assets/images/optimized/outdoor-bench-forest-959c4a…\" alt=\"Handcrafted wooden bench in a forest setting\" width=\"1600\" height=\"1066\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
+            "nodeLabel": "Handcrafted wooden bench in a forest setting"
+          }
+        ]
+      },
+      "longTasks": [],
+      "fullPageResourceBytes": 1502984,
+      "errors": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/outdoor-bench-forest-959c4ac922d3-1600-q65.avif",
+          "width": 994,
+          "height": 900,
+          "complete": true,
+          "naturalWidth": 1350
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/slatted-bench-joinery-detail-f7be2b4080a0-800.webp",
+          "width": 585,
+          "height": 384,
+          "complete": true,
+          "naturalWidth": 585
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/01-three-quarter-view-0ca98f9c3c9f-800.webp",
+          "width": 605,
+          "height": 403,
+          "complete": true,
+          "naturalWidth": 605
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/01-three-quarter-view-72986eec9fbd-800.webp",
+          "width": 605,
+          "height": 403,
+          "complete": true,
+          "naturalWidth": 605
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/01-front-three-quarter-8f18f97ceaa8-800.webp",
+          "width": 605,
+          "height": 403,
+          "complete": true,
+          "naturalWidth": 605
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/01-three-quarter-view-d89b895b6b8c-800.webp",
+          "width": 605,
+          "height": 403,
+          "complete": true,
+          "naturalWidth": 605
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/01-three-quarter-view-1bd7b8e12f65-800.webp",
+          "width": 605,
+          "height": 403,
+          "complete": true,
+          "naturalWidth": 605
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/01-front-three-quarter-7e808423708e-800.webp",
+          "width": 605,
+          "height": 403,
+          "complete": true,
+          "naturalWidth": 605
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/bench-concept-sketch-be87edb738b9-480.webp",
+          "width": 385,
+          "height": 288,
+          "complete": true,
+          "naturalWidth": 432
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/bench-cad-render-8fa81a8011d1-480.webp",
+          "width": 385,
+          "height": 288,
+          "complete": true,
+          "naturalWidth": 432
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/slatted-bench-joinery-detail-f7be2b4080a0-480.webp",
+          "width": 385,
+          "height": 288,
+          "complete": true,
+          "naturalWidth": 432
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/workbench-fc1fc385ef64-1600.webp",
+          "width": 1440,
+          "height": 738,
+          "complete": true,
+          "naturalWidth": 1440
+        }
+      ]
+    },
+    "mobile": {
+      "lighthouseVersion": "12.8.2",
+      "settings": {
+        "output": "json",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "metrics": {
+        "largest-contentful-paint": 5720.2311,
+        "speed-index": 3006.7437,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.0001750594106172637,
+        "total-byte-weight": 852025
+      },
+      "lcpBreakdown": {
+        "type": "list",
+        "items": [
+          {
+            "type": "table",
+            "headings": [
+              {
+                "key": "label",
+                "valueType": "text",
+                "label": "Subpart"
+              },
+              {
+                "key": "duration",
+                "valueType": "ms",
+                "label": "Duration"
+              }
+            ],
+            "items": [
+              {
+                "subpart": "timeToFirstByte",
+                "label": "Time to first byte",
+                "duration": 3.210000244140625
+              },
+              {
+                "subpart": "resourceLoadDelay",
+                "label": "Resource load delay",
+                "duration": 10.779999755859375
+              },
+              {
+                "subpart": "resourceLoadDuration",
+                "label": "Resource load duration",
+                "duration": 17.58
+              },
+              {
+                "subpart": "elementRenderDelay",
+                "label": "Element render delay",
+                "duration": 94.528
+              }
+            ]
+          },
+          {
+            "type": "node",
+            "lhId": "page-0-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,1,SECTION,1,DIV,0,PICTURE,3,IMG",
+            "selector": "section#Home > div.hero-image > picture > img",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 768,
+              "left": 165,
+              "right": 412,
+              "width": 247,
+              "height": 768
+            },
+            "snippet": "<img src=\"http://127.0.0.1:57482/assets/images/optimized/outdoor-bench-forest-959c4a…\" alt=\"Handcrafted wooden bench in a forest setting\" width=\"1600\" height=\"1066\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
+            "nodeLabel": "Handcrafted wooden bench in a forest setting"
+          }
+        ]
+      },
+      "longTasks": [
+        {
+          "url": "http://127.0.0.1:57482/",
+          "duration": 80,
+          "startTime": 753.37185
+        }
+      ],
+      "fullPageResourceBytes": 1068908,
+      "errors": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/outdoor-bench-forest-959c4ac922d3-mobile-960-q65.avif",
+          "width": 234,
+          "height": 768,
+          "complete": true,
+          "naturalWidth": 759
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/slatted-bench-joinery-detail-f7be2b4080a0-800.webp",
+          "width": 351,
+          "height": 280,
+          "complete": true,
+          "naturalWidth": 351
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/01-three-quarter-view-0ca98f9c3c9f-800.webp",
+          "width": 351,
+          "height": 234,
+          "complete": true,
+          "naturalWidth": 351
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/01-three-quarter-view-72986eec9fbd-800.webp",
+          "width": 351,
+          "height": 234,
+          "complete": true,
+          "naturalWidth": 351
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/01-front-three-quarter-8f18f97ceaa8-800.webp",
+          "width": 351,
+          "height": 234,
+          "complete": true,
+          "naturalWidth": 351
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/01-three-quarter-view-d89b895b6b8c-800.webp",
+          "width": 351,
+          "height": 234,
+          "complete": true,
+          "naturalWidth": 351
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/01-three-quarter-view-1bd7b8e12f65-800.webp",
+          "width": 351,
+          "height": 234,
+          "complete": true,
+          "naturalWidth": 351
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/01-front-three-quarter-7e808423708e-800.webp",
+          "width": 351,
+          "height": 234,
+          "complete": true,
+          "naturalWidth": 351
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/bench-concept-sketch-be87edb738b9-800.webp",
+          "width": 351,
+          "height": 263,
+          "complete": true,
+          "naturalWidth": 351
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/bench-cad-render-8fa81a8011d1-800.webp",
+          "width": 351,
+          "height": 263,
+          "complete": true,
+          "naturalWidth": 351
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/slatted-bench-joinery-detail-f7be2b4080a0-800.webp",
+          "width": 351,
+          "height": 263,
+          "complete": true,
+          "naturalWidth": 351
+        },
+        {
+          "src": "http://127.0.0.1:57482/assets/images/optimized/workbench-fc1fc385ef64-800.webp",
+          "width": 390,
+          "height": 608,
+          "complete": true,
+          "naturalWidth": 390
+        }
+      ]
+    }
+  }
+}

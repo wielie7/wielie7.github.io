@@ -121,7 +121,6 @@ html,body{
 }
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
-    /* background-color: #fff; */
     border: none;
 }
 
@@ -156,9 +155,6 @@ nav.navbar.bootsnav.navbar-hidden .navbar-toggle {
     -webkit-transition: opacity 0.7s ease;
     transition: opacity 0.7s ease;
 }
-
-
-/*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
     color: #000000;
@@ -177,12 +173,6 @@ nav.navbar.bootsnav.navbar-hidden .navbar-toggle {
     left: 15%;
     transform: translateX(-50%);
 }
-
-
-
-/*.navbar-brand*/
-
-/*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
     font-size: 16px;
     font-weight: 400;
@@ -216,12 +206,6 @@ nav.navbar.bootsnav.no-background ul.nav > li > a {
     color: #fff;
     transition: color 0.4s ease 0.5s;
 }
-
-/*.nav li*/
-
-
-
-/*.menu-ui-design*/
 .menu-ui-design{overflow-y:scroll;height: 350px;}
 .menu-ui-design::-webkit-scrollbar {
     width:5px;
@@ -232,11 +216,6 @@ nav.navbar.bootsnav.no-background ul.nav > li > a {
 .menu-ui-design::-webkit-scrollbar-thumb {
   background-color: #fff;
 }
-/*.menu-ui-design*/
-
-
-
-/*.navbar-toggle */
 nav.navbar.bootsnav .navbar-toggle {
     position: relative;
     background-color: transparent;
@@ -245,10 +224,6 @@ nav.navbar.bootsnav .navbar-toggle {
     top: 0;
 }
 nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
-/*.navbar-toggle */
-
-
-
 /*-------------------------------------
         3.  Welcome-hero
 --------------------------------------*/
@@ -290,7 +265,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
     width: 69%;
     height: 100%;
     
-    background: url(../images/about/outdoor-bench-forest.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     
@@ -322,8 +296,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
     line-height: 1.5;
     padding-top: 0;
     margin: 0;
-
-    /* Makes the text vertical */
     writing-mode: vertical-rl;
     text-orientation: mixed;
     
@@ -343,8 +315,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
     text-transform: uppercase;
     margin: 30px 0 0;
     letter-spacing: 3px;
-
-    /* Makes the subtitle vertical */
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
@@ -548,12 +518,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
 --------------------------------------*/
 .about {
     padding: 50px 0 50px;
-    /* border-top: 1px solid #e5ebf2; */
     background: #FFFBF0ED;
 }
 .about-content {padding-top: 50px;
 padding-bottom: 50px;}
-/*.single-about-txt*/
 .single-about-txt h3 {
     font-size:18px;
     color: #3c4258;
@@ -575,9 +543,6 @@ padding-bottom: 50px;}
     text-transform: capitalize;
 }
 .single-about-add-info p {font-weight:  300;border:  0;padding: 0;margin-top: 3px;}
-/*.single-about-txt*/
-
-/*.single-about-img */
 .single-about-img{position: absolute;box-shadow: 0 5px 20px rgba(14,25,80,0);}
 .single-about-img:before {
     position:  absolute;
@@ -592,7 +557,6 @@ padding-bottom: 50px;}
     max-width: 500px;
     
     max-height: 486px;
-    /* border-radius: 12px; */
 }
 .about-list-icon{
     display: flex;
@@ -604,9 +568,7 @@ padding-bottom: 50px;}
     width:100%;
     height: 62px;
     background: #1f2c6c;
-    /* border-radius: 12px; */
 }
-/*.ab-list-icon */
 .about-list-icon ul {
     display: flex;
 }
@@ -631,16 +593,9 @@ padding-bottom: 50px;}
     margin-left: 6px;
 }
 #aboutimgcont{
-    /* display: flex; */
     align-items: center;
     justify-content: center;
 }
-/*.ab-list-icon */
-
-/*.single-about-img */
-
-
-
 /*-------------------------------------
         6.  Collections
 --------------------------------------*/
@@ -651,7 +606,6 @@ padding-bottom: 50px;}
 
 
 .coli{
-    /* border-radius: 8px; */
     transition: transform 0.5s ease;
 }
 
@@ -663,13 +617,11 @@ padding-bottom: 50px;}
 a.coli-link {
     display: block;
     text-decoration: none;
-    /* border-radius: 16px; 👈 rounded corners */
     overflow: hidden;
   }
   
   .coli {
     height: 100%;
-    /* border-radius: 16px; */
     background-position: center;
     background-repeat: no-repeat;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -686,7 +638,6 @@ a.coli-link {
     
     background-attachment: fixed;
     padding: 50px 0 0px;
-    /* border-top: 1px solid #e5ebf2; */
     Background: white;
 }
 
@@ -695,7 +646,6 @@ a.coli-link {
 }
 #ColTitle{
     width: 60%;
-    /* background-color: #00000028; */
     color: #ffffff;
     position:absolute;
 
@@ -759,8 +709,6 @@ a.coli-link {
     font-weight: 600;
     text-transform: uppercase;
     padding-bottom: 50px;
-    /* border-bottom: 1px solid #e5ebf2; */
-    
 }
 
 
@@ -769,12 +717,6 @@ a.coli-link {
 
 .col {
     float: left;
-    /* width: 50%;
-    padding: 10px;
-  
-     height: auto;  
-     text-align: center;
-     position: relative; */
   }
   
   /* Clear floats after image containers */
@@ -898,8 +840,6 @@ a.coli-link {
         font-size: 64px;
     }
 }
-
-/* Homepage maker feature. Replace its image source when the landscape workshop portrait is ready. */
 
 .about-feature {
     position: relative;
@@ -1178,8 +1118,6 @@ a.coli-link {
 
 .CustomFurniture {
     padding: 50px 0 30px;
-    /* border-top: 1px solid #e5ebf2; */
-     
 } 
 .custom-content{
     display: grid;
@@ -1187,11 +1125,9 @@ a.coli-link {
     
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     position:relative;
     
     background:url(../images/about/bench-design-process.png)no-repeat;
-    /* opacity: 0.3; */
     background-size:cover;
     background-position: center;
     width: 100%;
@@ -1206,29 +1142,11 @@ a.coli-link {
     padding-top: 30px;
     text-align: center;
 }
-.cfrow{
-    /* display: grid;
-    grid-template-columns: auto auto auto auto;
-    
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    position:relative;
-    
-    /* background:url(../images/about/bench-design-process.png)no-repeat;
-    /* opacity: 0.3; */
-    /* background-size:cover;
-    background-position: center;
-    height:650px;
-     */
-    
-    
-}
+.cfrow { position: relative; }
 .cfrow.cfrow.background {
     opacity: 0.3;
 }
 .cftextbox{
-    /* padding-top: 50px; */
     text-align: center;
     
     height: 80%;
@@ -1748,13 +1666,9 @@ a.coli-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: relative; */
     bottom: 0;
     left: 0;
     width: 100%;
-    /* height: 60px; */
-    
-    
     font-size: 50px;
     font-weight: 400;
     text-transform: uppercase;
@@ -1768,13 +1682,9 @@ a.coli-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: relative; */
     bottom: 0;
     left: 0;
     width: 100%;
-    /* height: 60px; */
-    
-    
     font-size: 50px;
     font-weight: 400;
     text-transform: uppercase;
@@ -1862,7 +1772,6 @@ a.coli-link {
 	margin: 0;
 	color:#ffffff;
 	font-family: 'Poppins', sans-serif;
-    /* border-bottom: 1px solid #e5ebf2; */
     padding-bottom: 30px;
 } 
 .single-contact-box {
@@ -1877,7 +1786,6 @@ a.coli-link {
     padding: 25px;
     font-size: 14px;
     border: 1px solid #fff;
-    /* border-radius: 0px; */
     box-shadow: none;
     outline: 0!important;
     background: #fff;
@@ -1939,8 +1847,6 @@ a.coli-link {
     margin-top:  6px;
 }
 /* contact-adress */
-
-/*.contact-add-info */
 .contact-add-info { margin: 42px 0 52px;}
 .single-contact-add-info h3 {
     color:  #ffffff;
@@ -1954,12 +1860,6 @@ a.coli-link {
 .single-contact-add-info {
     margin-bottom:  26px;
 }
-/*.contact-add-info */
-
-/*hm-foot-icon*/
-/* .hm-foot-icon {
-   
-} */
 .hm-foot-icon ul li{float:left;}
 .hm-foot-icon ul li>a {
     color: #ffffff;
@@ -1972,7 +1872,7 @@ a.coli-link {
 }
 .hm-foot-icon ul li>a:hover{
     color: #ffffff;
-}/*hm-foot-icon*/
+}
 
 .hm-footer-copyright p{
     color: #7a7a7a;
@@ -2061,7 +1961,6 @@ a.coli-link {
     width: 100%;
     max-width: 700px;
     height: auto;
-    /* border-radius: 8px; */
   }
   
   .thumbnails {
@@ -2118,4 +2017,7 @@ a.coli-link {
     margin-bottom: 40px;
 
   }
-/*========================Thank you=================
+/* Picture wrappers preserve the existing image layout. */
+picture { display: contents; }
+picture > source { display: none; }
+.hero-image img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; }

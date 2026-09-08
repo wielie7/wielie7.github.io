@@ -1,6 +1,14 @@
 $(function () {
     "use strict";
 
+    // Preserve the original anchor easing without a separate CDN request.
+    $.easing.easeInOutExpo = function (x, t, b, c, d) {
+        if (t === 0) return b;
+        if (t === d) return b + c;
+        if ((t /= d / 2) < 1) return c / 2 * Math.pow(2, 10 * (t - 1)) + b;
+        return c / 2 * (-Math.pow(2, -10 * --t) + 2) + b;
+    };
+
     var $window = $(window);
     var $navbar = $(".navbar-fixed");
     var $scrollToTop = $(".return-to-top");
@@ -64,41 +72,8 @@ $(function () {
         });
     }
 
-    var $clientCarousel = $("#client");
-
-    if ($clientCarousel.length && $.fn.owlCarousel) {
-        $clientCarousel.owlCarousel({
-            items: 7,
-            loop: true,
-            smartSpeed: 1000,
-            autoplay: true,
-            dots: false,
-            autoplayHoverPause: true,
-            responsive: {
-                0: { items: 2 },
-                415: { items: 2 },
-                600: { items: 4 },
-                1199: { items: 4 },
-                1200: { items: 7 }
-            }
-        });
-
-        $(".play").on("click", function () {
-            $clientCarousel.trigger("play.owl.autoplay", [1000]);
-        });
-
-        $(".stop").on("click", function () {
-            $clientCarousel.trigger("stop.owl.autoplay");
-        });
-    }
-
-    // Apply entrance animations once the hero assets have loaded.
-    $window.on("load", function () {
-        $(".header-text h2, .header-text p")
-            .addClass("animated fadeInUp")
-            .css("opacity", "0");
-        $(".header-text a")
-            .addClass("animated fadeInDown")
-            .css("opacity", "0");
-    });
+    // Start the entrance animation when the DOM is ready, without waiting for
+    // lower-page photographs to finish downloading.
+    $(".header-text h2, .header-text p").addClass("animated fadeInUp");
+    $(".header-text a").addClass("animated fadeInDown");
 });

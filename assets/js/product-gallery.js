@@ -1,5 +1,5 @@
 (() => {
-    const images = document.querySelectorAll('.product-hero > img, .product-gallery img');
+    const images = document.querySelectorAll('.product-hero img, .product-gallery img');
     if (!images.length) return;
 
     const lightbox = document.createElement('div');
@@ -46,7 +46,7 @@
 
     function openLightbox(image) {
         trigger = image;
-        lightboxImage.src = image.currentSrc || image.src;
+        lightboxImage.src = image.dataset.fullSrc || image.currentSrc || image.src;
         lightboxImage.alt = image.alt;
         lightbox.hidden = false;
         document.body.classList.add('lightbox-open');

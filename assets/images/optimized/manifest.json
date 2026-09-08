@@ -1,0 +1,902 @@
+{
+  "assets/images/about/portrait-wielan-studio.jpg": {
+    "width": 1520,
+    "height": 1960,
+    "originalBytes": 185512,
+    "fallback": "assets/images/optimized/portrait-wielan-studio-b78ad3c312b0-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/portrait-wielan-studio-b78ad3c312b0-1200.webp",
+        "bytes": 270506
+      },
+      {
+        "width": 1520,
+        "src": "assets/images/optimized/portrait-wielan-studio-b78ad3c312b0-1520.webp",
+        "bytes": 345076
+      }
+    ]
+  },
+  "assets/images/collections/bench-01/01-three-quarter-view.jpg": {
+    "width": 5787,
+    "height": 3858,
+    "originalBytes": 2577910,
+    "fallback": "assets/images/optimized/01-three-quarter-view-b7258944631b-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/01-three-quarter-view-b7258944631b-1200.webp",
+        "bytes": 53434
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/01-three-quarter-view-b7258944631b-1600.webp",
+        "bytes": 108470
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/01-three-quarter-view-b7258944631b-2400.webp",
+        "bytes": 389288
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/01-three-quarter-view-b7258944631b-3200.webp",
+        "bytes": 993376
+      }
+    ]
+  },
+  "assets/images/collections/bench-02/01-three-quarter-view.jpg": {
+    "width": 6000,
+    "height": 4000,
+    "originalBytes": 3479369,
+    "fallback": "assets/images/optimized/01-three-quarter-view-b6da30286a49-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/01-three-quarter-view-b6da30286a49-1200.webp",
+        "bytes": 61166
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/01-three-quarter-view-b6da30286a49-1600.webp",
+        "bytes": 137408
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/01-three-quarter-view-b6da30286a49-2400.webp",
+        "bytes": 523404
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/01-three-quarter-view-b6da30286a49-3200.webp",
+        "bytes": 1294074
+      }
+    ]
+  },
+  "assets/images/collections/lounge-chair-01/01-front-three-quarter.jpg": {
+    "width": 4000,
+    "height": 6000,
+    "originalBytes": 1964686,
+    "fallback": "assets/images/optimized/01-front-three-quarter-8a75a9209ec8-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/01-front-three-quarter-8a75a9209ec8-1200.webp",
+        "bytes": 102580
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/01-front-three-quarter-8a75a9209ec8-1600.webp",
+        "bytes": 209738
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/01-front-three-quarter-8a75a9209ec8-2400.webp",
+        "bytes": 818618
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/01-front-three-quarter-8a75a9209ec8-3200.webp",
+        "bytes": 1669790
+      }
+    ]
+  },
+  "assets/images/collections/console-table-01/01-three-quarter-view.jpg": {
+    "width": 6000,
+    "height": 4000,
+    "originalBytes": 4061778,
+    "fallback": "assets/images/optimized/01-three-quarter-view-ea102bcf3e21-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/01-three-quarter-view-ea102bcf3e21-1200.webp",
+        "bytes": 61336
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/01-three-quarter-view-ea102bcf3e21-1600.webp",
+        "bytes": 159306
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/01-three-quarter-view-ea102bcf3e21-2400.webp",
+        "bytes": 625298
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/01-three-quarter-view-ea102bcf3e21-3200.webp",
+        "bytes": 1463126
+      }
+    ]
+  },
+  "assets/images/collections/cabinet-01/01-three-quarter-view.jpg": {
+    "width": 4000,
+    "height": 6000,
+    "originalBytes": 4531172,
+    "fallback": "assets/images/optimized/01-three-quarter-view-5b460daeb038-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/01-three-quarter-view-5b460daeb038-1200.webp",
+        "bytes": 332050
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/01-three-quarter-view-5b460daeb038-1600.webp",
+        "bytes": 789988
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/01-three-quarter-view-5b460daeb038-2400.webp",
+        "bytes": 2357976
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/01-three-quarter-view-5b460daeb038-3200.webp",
+        "bytes": 4611584
+      }
+    ]
+  },
+  "assets/images/collections/lounge-chair-02/01-front-three-quarter.jpg": {
+    "width": 3756,
+    "height": 5635,
+    "originalBytes": 4201122,
+    "fallback": "assets/images/optimized/01-front-three-quarter-74adef72972f-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/01-front-three-quarter-74adef72972f-1200.webp",
+        "bytes": 344664
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/01-front-three-quarter-74adef72972f-1600.webp",
+        "bytes": 804720
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/01-front-three-quarter-74adef72972f-2400.webp",
+        "bytes": 2533602
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/01-front-three-quarter-74adef72972f-3200.webp",
+        "bytes": 4910296
+      }
+    ]
+  },
+  "assets/images/risibiki/risibiki-table-top-and-base.jpeg": {
+    "width": 1066,
+    "height": 1600,
+    "originalBytes": 338955,
+    "fallback": "assets/images/optimized/risibiki-table-top-and-base-89de76233965-fallback.jpg",
+    "variants": [
+      {
+        "width": 1066,
+        "src": "assets/images/optimized/risibiki-table-top-and-base-89de76233965-1066.webp",
+        "bytes": 519050
+      }
+    ]
+  },
+  "assets/images/stool/single-three-quarter.jpg": {
+    "width": 2400,
+    "height": 3000,
+    "originalBytes": 628723,
+    "fallback": "assets/images/optimized/single-three-quarter-a346d045c726-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/single-three-quarter-a346d045c726-1200.webp",
+        "bytes": 401640
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/single-three-quarter-a346d045c726-1600.webp",
+        "bytes": 746332
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/single-three-quarter-a346d045c726-2400.webp",
+        "bytes": 1343594
+      }
+    ]
+  },
+  "assets/images/desk/front-view.jpg": {
+    "width": 3585,
+    "height": 2689,
+    "originalBytes": 414998,
+    "fallback": "assets/images/optimized/front-view-ad484c77d3b1-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/front-view-ad484c77d3b1-1200.webp",
+        "bytes": 159886
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/front-view-ad484c77d3b1-1600.webp",
+        "bytes": 233572
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/front-view-ad484c77d3b1-2400.webp",
+        "bytes": 429506
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/front-view-ad484c77d3b1-3200.webp",
+        "bytes": 648150
+      }
+    ]
+  },
+  "assets/images/reeftable/reef-table-three-quarter-view.jpeg": {
+    "width": 1600,
+    "height": 1066,
+    "originalBytes": 445957,
+    "fallback": "assets/images/optimized/reef-table-three-quarter-view-521dc2b164a1-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/reef-table-three-quarter-view-521dc2b164a1-1200.webp",
+        "bytes": 487218
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/reef-table-three-quarter-view-521dc2b164a1-1600.webp",
+        "bytes": 712398
+      }
+    ]
+  },
+  "assets/images/collections/bench-02/02-front-view.jpg": {
+    "width": 5900,
+    "height": 3933,
+    "originalBytes": 3234268,
+    "fallback": "assets/images/optimized/02-front-view-10055a1dfc6d-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/02-front-view-10055a1dfc6d-1200.webp",
+        "bytes": 47214
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/02-front-view-10055a1dfc6d-1600.webp",
+        "bytes": 104904
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/02-front-view-10055a1dfc6d-2400.webp",
+        "bytes": 454410
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/02-front-view-10055a1dfc6d-3200.webp",
+        "bytes": 1239738
+      }
+    ]
+  },
+  "assets/images/collections/bench-02/03-top-detail.jpg": {
+    "width": 6000,
+    "height": 4000,
+    "originalBytes": 2168356,
+    "fallback": "assets/images/optimized/03-top-detail-3889b5cb096c-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/03-top-detail-3889b5cb096c-1200.webp",
+        "bytes": 115192
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/03-top-detail-3889b5cb096c-1600.webp",
+        "bytes": 194962
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/03-top-detail-3889b5cb096c-2400.webp",
+        "bytes": 442088
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/03-top-detail-3889b5cb096c-3200.webp",
+        "bytes": 848312
+      }
+    ]
+  },
+  "assets/images/collections/bench-02/IMG-20250814-WA0019.jpg": {
+    "width": 1600,
+    "height": 1066,
+    "originalBytes": 559187,
+    "fallback": "assets/images/optimized/IMG-20250814-WA0019-77a9a9284d51-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/IMG-20250814-WA0019-77a9a9284d51-1200.webp",
+        "bytes": 574238
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/IMG-20250814-WA0019-77a9a9284d51-1600.webp",
+        "bytes": 916944
+      }
+    ]
+  },
+  "assets/images/description/slatted-bench-joinery-detail.png": {
+    "width": 1173,
+    "height": 783,
+    "originalBytes": 966935,
+    "fallback": "assets/images/optimized/slatted-bench-joinery-detail-5a536d995332-fallback.jpg",
+    "variants": [
+      {
+        "width": 1173,
+        "src": "assets/images/optimized/slatted-bench-joinery-detail-5a536d995332-1173.webp",
+        "bytes": 138768
+      }
+    ]
+  },
+  "assets/images/commissions/bench-concept-sketch.jpeg": {
+    "width": 1215,
+    "height": 813,
+    "originalBytes": 171642,
+    "fallback": "assets/images/optimized/bench-concept-sketch-c2cce271fa61-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/bench-concept-sketch-c2cce271fa61-1200.webp",
+        "bytes": 108960
+      },
+      {
+        "width": 1215,
+        "src": "assets/images/optimized/bench-concept-sketch-c2cce271fa61-1215.webp",
+        "bytes": 115778
+      }
+    ]
+  },
+  "assets/images/commissions/bench-cad-render.png": {
+    "width": 1920,
+    "height": 722,
+    "originalBytes": 335898,
+    "fallback": "assets/images/optimized/bench-cad-render-0940ce1ccab8-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/bench-cad-render-0940ce1ccab8-1200.webp",
+        "bytes": 16726
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/bench-cad-render-0940ce1ccab8-1600.webp",
+        "bytes": 24894
+      },
+      {
+        "width": 1920,
+        "src": "assets/images/optimized/bench-cad-render-0940ce1ccab8-1920.webp",
+        "bytes": 32962
+      }
+    ]
+  },
+  "assets/images/commissions/slatted-bench-joinery-detail.png": {
+    "width": 1173,
+    "height": 783,
+    "originalBytes": 966935,
+    "fallback": "assets/images/optimized/slatted-bench-joinery-detail-5a536d995332-fallback.jpg",
+    "variants": [
+      {
+        "width": 1173,
+        "src": "assets/images/optimized/slatted-bench-joinery-detail-5a536d995332-1173.webp",
+        "bytes": 138768
+      }
+    ]
+  },
+  "assets/images/about/workbench.jpeg": {
+    "width": 4160,
+    "height": 3120,
+    "originalBytes": 1597355,
+    "fallback": "assets/images/optimized/workbench-cbf709364998-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/workbench-cbf709364998-1200.webp",
+        "bytes": 338538
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/workbench-cbf709364998-1600.webp",
+        "bytes": 599408
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/workbench-cbf709364998-2400.webp",
+        "bytes": 1218614
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/workbench-cbf709364998-3200.webp",
+        "bytes": 1921504
+      }
+    ]
+  },
+  "assets/images/stool/paired-view.jpg": {
+    "width": 2400,
+    "height": 3000,
+    "originalBytes": 592659,
+    "fallback": "assets/images/optimized/paired-view-6dc1e90812d1-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/paired-view-6dc1e90812d1-1200.webp",
+        "bytes": 385130
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/paired-view-6dc1e90812d1-1600.webp",
+        "bytes": 701090
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/paired-view-6dc1e90812d1-2400.webp",
+        "bytes": 1273548
+      }
+    ]
+  },
+  "assets/images/collections/cabinet-01/02-front-view.jpg": {
+    "width": 3645,
+    "height": 5468,
+    "originalBytes": 3599718,
+    "fallback": "assets/images/optimized/02-front-view-f61107ab2de8-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/02-front-view-f61107ab2de8-1200.webp",
+        "bytes": 341630
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/02-front-view-f61107ab2de8-1600.webp",
+        "bytes": 795808
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/02-front-view-f61107ab2de8-2400.webp",
+        "bytes": 2364020
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/02-front-view-f61107ab2de8-3200.webp",
+        "bytes": 4574866
+      }
+    ]
+  },
+  "assets/images/reeftable/reef-table-riverside-view.jpeg": {
+    "width": 1600,
+    "height": 1066,
+    "originalBytes": 404598,
+    "fallback": "assets/images/optimized/reef-table-riverside-view-bc53faa1cbc1-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/reef-table-riverside-view-bc53faa1cbc1-1200.webp",
+        "bytes": 425078
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/reef-table-riverside-view-bc53faa1cbc1-1600.webp",
+        "bytes": 617614
+      }
+    ]
+  },
+  "assets/images/reeftable/reef-table-end-view.jpeg": {
+    "width": 1600,
+    "height": 1066,
+    "originalBytes": 298173,
+    "fallback": "assets/images/optimized/reef-table-end-view-ccaeb022d1c9-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/reef-table-end-view-ccaeb022d1c9-1200.webp",
+        "bytes": 307962
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/reef-table-end-view-ccaeb022d1c9-1600.webp",
+        "bytes": 439098
+      }
+    ]
+  },
+  "assets/images/risibiki/risibiki-table-riverside-view.jpeg": {
+    "width": 1066,
+    "height": 1600,
+    "originalBytes": 268750,
+    "fallback": "assets/images/optimized/risibiki-table-riverside-view-b5f4129808f7-fallback.jpg",
+    "variants": [
+      {
+        "width": 1066,
+        "src": "assets/images/optimized/risibiki-table-riverside-view-b5f4129808f7-1066.webp",
+        "bytes": 398090
+      }
+    ]
+  },
+  "assets/images/desk/styled-front-view.jpg": {
+    "width": 4103,
+    "height": 3077,
+    "originalBytes": 479013,
+    "fallback": "assets/images/optimized/styled-front-view-503256e81970-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/styled-front-view-503256e81970-1200.webp",
+        "bytes": 145972
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/styled-front-view-503256e81970-1600.webp",
+        "bytes": 234236
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/styled-front-view-503256e81970-2400.webp",
+        "bytes": 404412
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/styled-front-view-503256e81970-3200.webp",
+        "bytes": 621016
+      }
+    ]
+  },
+  "assets/images/desk/underside-detail.jpg": {
+    "width": 5334,
+    "height": 4000,
+    "originalBytes": 527854,
+    "fallback": "assets/images/optimized/underside-detail-46b07f7111b4-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/underside-detail-46b07f7111b4-1200.webp",
+        "bytes": 98420
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/underside-detail-46b07f7111b4-1600.webp",
+        "bytes": 152146
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/underside-detail-46b07f7111b4-2400.webp",
+        "bytes": 279162
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/underside-detail-46b07f7111b4-3200.webp",
+        "bytes": 433212
+      }
+    ]
+  },
+  "assets/images/collections/lounge-chair-02/02-rear-three-quarter.jpg": {
+    "width": 4000,
+    "height": 6000,
+    "originalBytes": 4549061,
+    "fallback": "assets/images/optimized/02-rear-three-quarter-6c480da34f17-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/02-rear-three-quarter-6c480da34f17-1200.webp",
+        "bytes": 288068
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/02-rear-three-quarter-6c480da34f17-1600.webp",
+        "bytes": 702818
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/02-rear-three-quarter-6c480da34f17-2400.webp",
+        "bytes": 2306690
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/02-rear-three-quarter-6c480da34f17-3200.webp",
+        "bytes": 4579742
+      }
+    ]
+  },
+  "assets/images/collections/lounge-chair-02/04-front-detail.jpg": {
+    "width": 4000,
+    "height": 6000,
+    "originalBytes": 2601477,
+    "fallback": "assets/images/optimized/04-front-detail-6a594a972d99-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/04-front-detail-6a594a972d99-1200.webp",
+        "bytes": 300396
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/04-front-detail-6a594a972d99-1600.webp",
+        "bytes": 590208
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/04-front-detail-6a594a972d99-2400.webp",
+        "bytes": 1509366
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/04-front-detail-6a594a972d99-3200.webp",
+        "bytes": 2643904
+      }
+    ]
+  },
+  "assets/images/collections/lounge-chair-02/05-side-detail.jpg": {
+    "width": 4000,
+    "height": 6000,
+    "originalBytes": 2264606,
+    "fallback": "assets/images/optimized/05-side-detail-d2e8677b4317-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/05-side-detail-d2e8677b4317-1200.webp",
+        "bytes": 301624
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/05-side-detail-d2e8677b4317-1600.webp",
+        "bytes": 564940
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/05-side-detail-d2e8677b4317-2400.webp",
+        "bytes": 1383082
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/05-side-detail-d2e8677b4317-3200.webp",
+        "bytes": 2344418
+      }
+    ]
+  },
+  "assets/images/collections/lounge-chair-01/03-rear-three-quarter.jpg": {
+    "width": 4000,
+    "height": 6000,
+    "originalBytes": 2014864,
+    "fallback": "assets/images/optimized/03-rear-three-quarter-5df65a819427-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/03-rear-three-quarter-5df65a819427-1200.webp",
+        "bytes": 116524
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/03-rear-three-quarter-5df65a819427-1600.webp",
+        "bytes": 221578
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/03-rear-three-quarter-5df65a819427-2400.webp",
+        "bytes": 844076
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/03-rear-three-quarter-5df65a819427-3200.webp",
+        "bytes": 1730040
+      }
+    ]
+  },
+  "assets/images/collections/lounge-chair-01/02-side-detail.jpg": {
+    "width": 4000,
+    "height": 6000,
+    "originalBytes": 2644489,
+    "fallback": "assets/images/optimized/02-side-detail-1afc38de962a-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/02-side-detail-1afc38de962a-1200.webp",
+        "bytes": 196910
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/02-side-detail-1afc38de962a-1600.webp",
+        "bytes": 384524
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/02-side-detail-1afc38de962a-2400.webp",
+        "bytes": 1381844
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/02-side-detail-1afc38de962a-3200.webp",
+        "bytes": 2606836
+      }
+    ]
+  },
+  "assets/images/collections/console-table-01/02-front-view.jpg": {
+    "width": 5685,
+    "height": 3790,
+    "originalBytes": 2742073,
+    "fallback": "assets/images/optimized/02-front-view-6c47353aa0a1-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/02-front-view-6c47353aa0a1-1200.webp",
+        "bytes": 44780
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/02-front-view-6c47353aa0a1-1600.webp",
+        "bytes": 113136
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/02-front-view-6c47353aa0a1-2400.webp",
+        "bytes": 521588
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/02-front-view-6c47353aa0a1-3200.webp",
+        "bytes": 1224694
+      }
+    ]
+  },
+  "assets/images/collections/console-table-01/03-side-three-quarter.jpg": {
+    "width": 6000,
+    "height": 4000,
+    "originalBytes": 1921483,
+    "fallback": "assets/images/optimized/03-side-three-quarter-e02ebfa705d0-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/03-side-three-quarter-e02ebfa705d0-1200.webp",
+        "bytes": 61296
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/03-side-three-quarter-e02ebfa705d0-1600.webp",
+        "bytes": 99796
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/03-side-three-quarter-e02ebfa705d0-2400.webp",
+        "bytes": 268686
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/03-side-three-quarter-e02ebfa705d0-3200.webp",
+        "bytes": 579234
+      }
+    ]
+  },
+  "assets/images/collections/console-table-01/04-leg-joint-detail.jpg": {
+    "width": 4000,
+    "height": 6000,
+    "originalBytes": 2210992,
+    "fallback": "assets/images/optimized/04-leg-joint-detail-ee8bf49ef5a9-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/04-leg-joint-detail-ee8bf49ef5a9-1200.webp",
+        "bytes": 162058
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/04-leg-joint-detail-ee8bf49ef5a9-1600.webp",
+        "bytes": 344792
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/04-leg-joint-detail-ee8bf49ef5a9-2400.webp",
+        "bytes": 1111416
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/04-leg-joint-detail-ee8bf49ef5a9-3200.webp",
+        "bytes": 1975610
+      }
+    ]
+  },
+  "assets/images/collections/bench-01/02-front-view.jpg": {
+    "width": 5770,
+    "height": 3847,
+    "originalBytes": 3298117,
+    "fallback": "assets/images/optimized/02-front-view-dfd822ae7dd0-fallback.jpg",
+    "variants": [
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/02-front-view-dfd822ae7dd0-1600.webp",
+        "bytes": 140468
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/02-front-view-dfd822ae7dd0-2400.webp",
+        "bytes": 560598
+      }
+    ]
+  },
+  "assets/images/collections/bench-01/03-leg-joint-detail.jpg": {
+    "width": 6000,
+    "height": 4000,
+    "originalBytes": 1964675,
+    "fallback": "assets/images/optimized/03-leg-joint-detail-f53f778b2426-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/03-leg-joint-detail-f53f778b2426-1200.webp",
+        "bytes": 69778
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/03-leg-joint-detail-f53f778b2426-1600.webp",
+        "bytes": 128162
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/03-leg-joint-detail-f53f778b2426-2400.webp",
+        "bytes": 315616
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/03-leg-joint-detail-f53f778b2426-3200.webp",
+        "bytes": 658198
+      }
+    ]
+  },
+  "assets/images/collections/bench-01/04-top-detail.jpg": {
+    "width": 6000,
+    "height": 4000,
+    "originalBytes": 2869840,
+    "fallback": "assets/images/optimized/04-top-detail-126a964fc27a-fallback.jpg",
+    "variants": [
+      {
+        "width": 1200,
+        "src": "assets/images/optimized/04-top-detail-126a964fc27a-1200.webp",
+        "bytes": 139358
+      },
+      {
+        "width": 1600,
+        "src": "assets/images/optimized/04-top-detail-126a964fc27a-1600.webp",
+        "bytes": 250310
+      },
+      {
+        "width": 2400,
+        "src": "assets/images/optimized/04-top-detail-126a964fc27a-2400.webp",
+        "bytes": 609720
+      },
+      {
+        "width": 3200,
+        "src": "assets/images/optimized/04-top-detail-126a964fc27a-3200.webp",
+        "bytes": 1221586
+      }
+    ]
+  },
+  "assets/images/about/outdoor-bench-forest.jpg": {
+    "width": 1600,
+    "height": 1066,
+    "originalBytes": 559187,
+    "fallback": "assets/images/optimized/outdoor-bench-forest-77a9a9284d51-fallback.jpg",
+    "variants": [],
+    "avif": [],
+    "mobileAvif": []
+  }
+}

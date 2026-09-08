@@ -1,0 +1,1730 @@
+[
+  {
+    "file": "about.html",
+    "mobile": false,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": null,
+    "layoutBefore": [
+      {
+        "alt": "Portrait of Wielan du Plessis in his workshop",
+        "x": 712.0625,
+        "y": 110,
+        "width": 641.546875,
+        "height": 720
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "Portrait of Wielan du Plessis in his workshop",
+        "x": 712.0625,
+        "y": 110,
+        "width": 641.546875,
+        "height": 720
+      }
+    ]
+  },
+  {
+    "file": "archive.html",
+    "mobile": false,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": null,
+    "layoutBefore": [
+      {
+        "alt": "Wooden foyer bench with exposed joinery",
+        "x": 86.390625,
+        "y": 465.59375,
+        "width": 1267.21875,
+        "height": 633.609375
+      },
+      {
+        "alt": "Fecit Platform wooden bench",
+        "x": 86.390625,
+        "y": 1241.90625,
+        "width": 616.109375,
+        "height": 462.078125
+      },
+      {
+        "alt": "WF05 wooden dining chair",
+        "x": 737.5,
+        "y": 1241.90625,
+        "width": 616.109375,
+        "height": 462.078125
+      },
+      {
+        "alt": "WF06 wooden hallway table",
+        "x": 86.390625,
+        "y": 1846.6875,
+        "width": 616.109375,
+        "height": 462.078125
+      },
+      {
+        "alt": "Sculptural wooden Pillar Table",
+        "x": 737.5,
+        "y": 1846.6875,
+        "width": 616.109375,
+        "height": 462.078125
+      },
+      {
+        "alt": "WF03 wooden lounge chair",
+        "x": 86.390625,
+        "y": 2451.46875,
+        "width": 616.109375,
+        "height": 462.078125
+      },
+      {
+        "alt": "Risibiki Table photographed in the grass",
+        "x": 737.5,
+        "y": 2451.46875,
+        "width": 616.109375,
+        "height": 462.078125
+      },
+      {
+        "alt": "Handcrafted wooden kitchen stool",
+        "x": 86.390625,
+        "y": 3056.25,
+        "width": 616.109375,
+        "height": 462.078125
+      },
+      {
+        "alt": "Sculptural wooden desk viewed from the front",
+        "x": 737.5,
+        "y": 3056.25,
+        "width": 616.109375,
+        "height": 462.078125
+      },
+      {
+        "alt": "Reef Table beside the river",
+        "x": 86.390625,
+        "y": 3661.03125,
+        "width": 616.109375,
+        "height": 462.078125
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "Wooden foyer bench with exposed joinery",
+        "x": 86.390625,
+        "y": 465.59375,
+        "width": 1267.21875,
+        "height": 633.609375
+      },
+      {
+        "alt": "Fecit Platform wooden bench",
+        "x": 86.390625,
+        "y": 1241.90625,
+        "width": 616.109375,
+        "height": 462.078125
+      },
+      {
+        "alt": "WF05 wooden dining chair",
+        "x": 737.5,
+        "y": 1241.90625,
+        "width": 616.109375,
+        "height": 462.078125
+      },
+      {
+        "alt": "WF06 wooden hallway table",
+        "x": 86.390625,
+        "y": 1846.6875,
+        "width": 616.109375,
+        "height": 462.078125
+      },
+      {
+        "alt": "Sculptural wooden Pillar Table",
+        "x": 737.5,
+        "y": 1846.6875,
+        "width": 616.109375,
+        "height": 462.078125
+      },
+      {
+        "alt": "WF03 wooden lounge chair",
+        "x": 86.390625,
+        "y": 2451.46875,
+        "width": 616.109375,
+        "height": 462.078125
+      },
+      {
+        "alt": "Risibiki Table photographed in the grass",
+        "x": 737.5,
+        "y": 2451.46875,
+        "width": 616.109375,
+        "height": 462.078125
+      },
+      {
+        "alt": "Handcrafted wooden kitchen stool",
+        "x": 86.390625,
+        "y": 3056.25,
+        "width": 616.109375,
+        "height": 462.078125
+      },
+      {
+        "alt": "Sculptural wooden desk viewed from the front",
+        "x": 737.5,
+        "y": 3056.25,
+        "width": 616.109375,
+        "height": 462.078125
+      },
+      {
+        "alt": "Reef Table beside the river",
+        "x": 86.390625,
+        "y": 3661.03125,
+        "width": 616.109375,
+        "height": 462.078125
+      }
+    ]
+  },
+  {
+    "file": "contact.html",
+    "mobile": false,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": null,
+    "layoutBefore": [],
+    "layoutAfter": []
+  },
+  {
+    "file": "fecit-platform.html",
+    "mobile": false,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/collections/bench-02/01-three-quarter-view.jpg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "Fecit Platform shown from a three-quarter angle",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 792
+      },
+      {
+        "alt": "Front view of the Fecit Platform",
+        "x": 144,
+        "y": 1280,
+        "width": 1152,
+        "height": 900
+      },
+      {
+        "alt": "Top detail of the Fecit Platform",
+        "x": 144,
+        "y": 2216,
+        "width": 558,
+        "height": 691.1875
+      },
+      {
+        "alt": "Fecit Platform in a natural outdoor setting",
+        "x": 738,
+        "y": 2216,
+        "width": 558,
+        "height": 691.1875
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "Fecit Platform shown from a three-quarter angle",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 792
+      },
+      {
+        "alt": "Front view of the Fecit Platform",
+        "x": 144,
+        "y": 1280,
+        "width": 1152,
+        "height": 900
+      },
+      {
+        "alt": "Top detail of the Fecit Platform",
+        "x": 144,
+        "y": 2216,
+        "width": 558,
+        "height": 691.1875
+      },
+      {
+        "alt": "Fecit Platform in a natural outdoor setting",
+        "x": 738,
+        "y": 2216,
+        "width": 558,
+        "height": 691.1875
+      }
+    ]
+  },
+  {
+    "file": "kitchen-stool.html",
+    "mobile": false,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/stool/single-three-quarter.jpg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "Kitchen Stool in Red Meranti, showing the seat grip and footrest",
+        "x": 43.1875,
+        "y": 90,
+        "width": 717.703125,
+        "height": 781.203125
+      },
+      {
+        "alt": "A pair of Red Meranti Kitchen Stools",
+        "x": 144,
+        "y": 1388,
+        "width": 1152,
+        "height": 1440
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "Kitchen Stool in Red Meranti, showing the seat grip and footrest",
+        "x": 43.1875,
+        "y": 90,
+        "width": 717.703125,
+        "height": 781.203125
+      },
+      {
+        "alt": "A pair of Red Meranti Kitchen Stools",
+        "x": 144,
+        "y": 1388,
+        "width": 1152,
+        "height": 1440
+      }
+    ]
+  },
+  {
+    "file": "pillar-table.html",
+    "mobile": false,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/collections/cabinet-01/01-three-quarter-view.jpg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "Pillar Table shown from a three-quarter angle",
+        "x": 43.1875,
+        "y": 90,
+        "width": 768.96875,
+        "height": 781.203125
+      },
+      {
+        "alt": "Front view of the Pillar Table",
+        "x": 144,
+        "y": 1183.9375,
+        "width": 558,
+        "height": 837.0625
+      },
+      {
+        "alt": "Three-quarter view of the Pillar Table",
+        "x": 738,
+        "y": 1323.5,
+        "width": 558,
+        "height": 697.5
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "Pillar Table shown from a three-quarter angle",
+        "x": 43.1875,
+        "y": 90,
+        "width": 768.96875,
+        "height": 781.203125
+      },
+      {
+        "alt": "Front view of the Pillar Table",
+        "x": 144,
+        "y": 1183.546875,
+        "width": 558,
+        "height": 837.453125
+      },
+      {
+        "alt": "Three-quarter view of the Pillar Table",
+        "x": 738,
+        "y": 1323.5,
+        "width": 558,
+        "height": 697.5
+      }
+    ]
+  },
+  {
+    "file": "reef-table.html",
+    "mobile": false,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/reeftable/reef-table-three-quarter-view.jpeg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "Reef Table with a flowing wooden top and contrasting supports beside a river",
+        "x": 72,
+        "y": 140,
+        "width": 620,
+        "height": 465
+      },
+      {
+        "alt": "Reef Table showing the curved top, angled leg and lower stretcher",
+        "x": 180,
+        "y": 1158,
+        "width": 520,
+        "height": 390
+      },
+      {
+        "alt": "End view of the Reef Table showing the broad support and exposed tabletop joinery",
+        "x": 740,
+        "y": 1158,
+        "width": 520,
+        "height": 520
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "Reef Table with a flowing wooden top and contrasting supports beside a river",
+        "x": 72,
+        "y": 140,
+        "width": 620,
+        "height": 465
+      },
+      {
+        "alt": "Reef Table showing the curved top, angled leg and lower stretcher",
+        "x": 180,
+        "y": 1158,
+        "width": 520,
+        "height": 390
+      },
+      {
+        "alt": "End view of the Reef Table showing the broad support and exposed tabletop joinery",
+        "x": 740,
+        "y": 1158,
+        "width": 520,
+        "height": 520
+      }
+    ]
+  },
+  {
+    "file": "risibiki-table.html",
+    "mobile": false,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/risibiki/risibiki-table-riverside-view.jpeg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "Risibiki Table on a tree stump beside the river",
+        "x": 72,
+        "y": 140,
+        "width": 620,
+        "height": 620
+      },
+      {
+        "alt": "Risibiki Table showing the curved tabletop and sculptural base in the grass",
+        "x": 180,
+        "y": 1313,
+        "width": 520,
+        "height": 520
+      },
+      {
+        "alt": "Side view of the Risibiki Table beside the river",
+        "x": 740,
+        "y": 1313,
+        "width": 520,
+        "height": 520
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "Risibiki Table on a tree stump beside the river",
+        "x": 72,
+        "y": 140,
+        "width": 620,
+        "height": 620
+      },
+      {
+        "alt": "Risibiki Table showing the curved tabletop and sculptural base in the grass",
+        "x": 180,
+        "y": 1313,
+        "width": 520,
+        "height": 520
+      },
+      {
+        "alt": "Side view of the Risibiki Table beside the river",
+        "x": 740,
+        "y": 1313,
+        "width": 520,
+        "height": 520
+      }
+    ]
+  },
+  {
+    "file": "sculptural-desk.html",
+    "mobile": false,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/desk/styled-front-view.jpg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "Sculptural Desk styled with a laptop and vase",
+        "x": 72,
+        "y": 140,
+        "width": 620,
+        "height": 464.953125
+      },
+      {
+        "alt": "Front view of the Sculptural Desk",
+        "x": 180,
+        "y": 1157.953125,
+        "width": 520,
+        "height": 390.03125
+      },
+      {
+        "alt": "Sculpted underside detail of the Sculptural Desk",
+        "x": 740,
+        "y": 1157.953125,
+        "width": 520,
+        "height": 389.9375
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "Sculptural Desk styled with a laptop and vase",
+        "x": 72,
+        "y": 140,
+        "width": 620,
+        "height": 465
+      },
+      {
+        "alt": "Front view of the Sculptural Desk",
+        "x": 180,
+        "y": 1158,
+        "width": 520,
+        "height": 390
+      },
+      {
+        "alt": "Sculpted underside detail of the Sculptural Desk",
+        "x": 740,
+        "y": 1158,
+        "width": 520,
+        "height": 390
+      }
+    ]
+  },
+  {
+    "file": "wf03-lounge-chair.html",
+    "mobile": false,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/collections/lounge-chair-02/02-rear-three-quarter.jpg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "WF03 Lounge Chair shown from the rear",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 792
+      },
+      {
+        "alt": "Front three-quarter view of the WF03 Lounge Chair",
+        "x": 144,
+        "y": 1215.5,
+        "width": 558,
+        "height": 697.5
+      },
+      {
+        "alt": "Rear three-quarter view of the WF03 Lounge Chair",
+        "x": 738,
+        "y": 1215.5,
+        "width": 558,
+        "height": 697.5
+      },
+      {
+        "alt": "Front detail of the WF03 Lounge Chair",
+        "x": 144,
+        "y": 1949,
+        "width": 558,
+        "height": 697.5
+      },
+      {
+        "alt": "Side detail of the WF03 Lounge Chair",
+        "x": 738,
+        "y": 1949,
+        "width": 558,
+        "height": 697.5
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "WF03 Lounge Chair shown from the rear",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 792
+      },
+      {
+        "alt": "Front three-quarter view of the WF03 Lounge Chair",
+        "x": 144,
+        "y": 1215.5,
+        "width": 558,
+        "height": 697.5
+      },
+      {
+        "alt": "Rear three-quarter view of the WF03 Lounge Chair",
+        "x": 738,
+        "y": 1215.5,
+        "width": 558,
+        "height": 697.5
+      },
+      {
+        "alt": "Front detail of the WF03 Lounge Chair",
+        "x": 144,
+        "y": 1949,
+        "width": 558,
+        "height": 697.5
+      },
+      {
+        "alt": "Side detail of the WF03 Lounge Chair",
+        "x": 738,
+        "y": 1949,
+        "width": 558,
+        "height": 697.5
+      }
+    ]
+  },
+  {
+    "file": "wf05-dining-chair.html",
+    "mobile": false,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/collections/lounge-chair-01/01-front-three-quarter.jpg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "WF05 Dining Chair shown from the front",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 792
+      },
+      {
+        "alt": "Rear view of the WF05 Dining Chair",
+        "x": 144,
+        "y": 1280,
+        "width": 558,
+        "height": 697.5
+      },
+      {
+        "alt": "Front three-quarter view of the WF05 Dining Chair",
+        "x": 738,
+        "y": 1280,
+        "width": 558,
+        "height": 697.5
+      },
+      {
+        "alt": "Side detail of the WF05 Dining Chair",
+        "x": 144,
+        "y": 2013.5,
+        "width": 1152,
+        "height": 780
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "WF05 Dining Chair shown from the front",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 792
+      },
+      {
+        "alt": "Rear view of the WF05 Dining Chair",
+        "x": 144,
+        "y": 1280,
+        "width": 558,
+        "height": 697.5
+      },
+      {
+        "alt": "Front three-quarter view of the WF05 Dining Chair",
+        "x": 738,
+        "y": 1280,
+        "width": 558,
+        "height": 697.5
+      },
+      {
+        "alt": "Side detail of the WF05 Dining Chair",
+        "x": 144,
+        "y": 2013.5,
+        "width": 1152,
+        "height": 780
+      }
+    ]
+  },
+  {
+    "file": "wf06-hallway-table.html",
+    "mobile": false,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/collections/console-table-01/01-three-quarter-view.jpg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "WF06 Hallway Table shown from a three-quarter angle",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 792
+      },
+      {
+        "alt": "Front view of the WF06 Hallway Table",
+        "x": 144,
+        "y": 1215.5,
+        "width": 1152,
+        "height": 900
+      },
+      {
+        "alt": "Side view of the WF06 Hallway Table",
+        "x": 144,
+        "y": 2151.5,
+        "width": 558,
+        "height": 372
+      },
+      {
+        "alt": "Three-quarter view of the WF06 Hallway Table",
+        "x": 144,
+        "y": 2559.5,
+        "width": 558,
+        "height": 372
+      },
+      {
+        "alt": "Leg joint detail of the WF06 Hallway Table",
+        "x": 738,
+        "y": 2151.5,
+        "width": 558,
+        "height": 779.984375
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "WF06 Hallway Table shown from a three-quarter angle",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 792
+      },
+      {
+        "alt": "Front view of the WF06 Hallway Table",
+        "x": 144,
+        "y": 1215.5,
+        "width": 1152,
+        "height": 900
+      },
+      {
+        "alt": "Side view of the WF06 Hallway Table",
+        "x": 144,
+        "y": 2151.5,
+        "width": 558,
+        "height": 372
+      },
+      {
+        "alt": "Three-quarter view of the WF06 Hallway Table",
+        "x": 144,
+        "y": 2559.5,
+        "width": 558,
+        "height": 372
+      },
+      {
+        "alt": "Leg joint detail of the WF06 Hallway Table",
+        "x": 738,
+        "y": 2151.5,
+        "width": 558,
+        "height": 779.984375
+      }
+    ]
+  },
+  {
+    "file": "wf08-foyer-bench.html",
+    "mobile": false,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/collections/bench-01/02-front-view.jpg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "Front view of the WF08 Foyer Bench",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 792
+      },
+      {
+        "alt": "WF08 Foyer Bench shown from a three-quarter angle",
+        "x": 144,
+        "y": 1215.5,
+        "width": 1152,
+        "height": 780
+      },
+      {
+        "alt": "Leg joint detail of the WF08 Foyer Bench",
+        "x": 144,
+        "y": 2031.5,
+        "width": 558,
+        "height": 691.1875
+      },
+      {
+        "alt": "Top detail of the WF08 Foyer Bench",
+        "x": 738,
+        "y": 2031.5,
+        "width": 558,
+        "height": 691.1875
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "Front view of the WF08 Foyer Bench",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 792
+      },
+      {
+        "alt": "WF08 Foyer Bench shown from a three-quarter angle",
+        "x": 144,
+        "y": 1215.5,
+        "width": 1152,
+        "height": 780
+      },
+      {
+        "alt": "Leg joint detail of the WF08 Foyer Bench",
+        "x": 144,
+        "y": 2031.5,
+        "width": 558,
+        "height": 691.1875
+      },
+      {
+        "alt": "Top detail of the WF08 Foyer Bench",
+        "x": 738,
+        "y": 2031.5,
+        "width": 558,
+        "height": 691.1875
+      }
+    ]
+  },
+  {
+    "file": "index.html",
+    "mobile": false,
+    "errors": [],
+    "title": {
+      "opacity": "1",
+      "rect": {
+        "x": 141,
+        "y": 293.1953125,
+        "width": 150,
+        "height": 313.609375,
+        "top": 293.1953125,
+        "right": 291,
+        "bottom": 606.8046875,
+        "left": 141
+      },
+      "font": "Poppins, sans-serif"
+    },
+    "confirmation": "Message Sent!",
+    "anchor": true,
+    "returned": true
+  },
+  {
+    "file": "about.html",
+    "mobile": true,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": null,
+    "layoutBefore": [
+      {
+        "alt": "Portrait of Wielan du Plessis in his workshop",
+        "x": 20,
+        "y": 388.46875,
+        "width": 350,
+        "height": 573.90625
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "Portrait of Wielan du Plessis in his workshop",
+        "x": 20,
+        "y": 388.46875,
+        "width": 350,
+        "height": 573.90625
+      }
+    ]
+  },
+  {
+    "file": "archive.html",
+    "mobile": true,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": null,
+    "layoutBefore": [
+      {
+        "alt": "Wooden foyer bench with exposed joinery",
+        "x": 22,
+        "y": 431.234375,
+        "width": 346,
+        "height": 259.5
+      },
+      {
+        "alt": "Fecit Platform wooden bench",
+        "x": 22,
+        "y": 791.484375,
+        "width": 346,
+        "height": 259.5
+      },
+      {
+        "alt": "WF05 wooden dining chair",
+        "x": 22,
+        "y": 1151.734375,
+        "width": 346,
+        "height": 259.5
+      },
+      {
+        "alt": "WF06 wooden hallway table",
+        "x": 22,
+        "y": 1511.984375,
+        "width": 346,
+        "height": 259.5
+      },
+      {
+        "alt": "Sculptural wooden Pillar Table",
+        "x": 22,
+        "y": 1872.234375,
+        "width": 346,
+        "height": 259.5
+      },
+      {
+        "alt": "WF03 wooden lounge chair",
+        "x": 22,
+        "y": 2232.484375,
+        "width": 346,
+        "height": 259.5
+      },
+      {
+        "alt": "Risibiki Table photographed in the grass",
+        "x": 22,
+        "y": 2592.734375,
+        "width": 346,
+        "height": 259.5
+      },
+      {
+        "alt": "Handcrafted wooden kitchen stool",
+        "x": 22,
+        "y": 2952.984375,
+        "width": 346,
+        "height": 259.5
+      },
+      {
+        "alt": "Sculptural wooden desk viewed from the front",
+        "x": 22,
+        "y": 3313.234375,
+        "width": 346,
+        "height": 259.5
+      },
+      {
+        "alt": "Reef Table beside the river",
+        "x": 22,
+        "y": 3673.484375,
+        "width": 346,
+        "height": 259.5
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "Wooden foyer bench with exposed joinery",
+        "x": 22,
+        "y": 431.234375,
+        "width": 346,
+        "height": 259.5
+      },
+      {
+        "alt": "Fecit Platform wooden bench",
+        "x": 22,
+        "y": 791.484375,
+        "width": 346,
+        "height": 259.5
+      },
+      {
+        "alt": "WF05 wooden dining chair",
+        "x": 22,
+        "y": 1151.734375,
+        "width": 346,
+        "height": 259.5
+      },
+      {
+        "alt": "WF06 wooden hallway table",
+        "x": 22,
+        "y": 1511.984375,
+        "width": 346,
+        "height": 259.5
+      },
+      {
+        "alt": "Sculptural wooden Pillar Table",
+        "x": 22,
+        "y": 1872.234375,
+        "width": 346,
+        "height": 259.5
+      },
+      {
+        "alt": "WF03 wooden lounge chair",
+        "x": 22,
+        "y": 2232.484375,
+        "width": 346,
+        "height": 259.5
+      },
+      {
+        "alt": "Risibiki Table photographed in the grass",
+        "x": 22,
+        "y": 2592.734375,
+        "width": 346,
+        "height": 259.5
+      },
+      {
+        "alt": "Handcrafted wooden kitchen stool",
+        "x": 22,
+        "y": 2952.984375,
+        "width": 346,
+        "height": 259.5
+      },
+      {
+        "alt": "Sculptural wooden desk viewed from the front",
+        "x": 22,
+        "y": 3313.234375,
+        "width": 346,
+        "height": 259.5
+      },
+      {
+        "alt": "Reef Table beside the river",
+        "x": 22,
+        "y": 3673.484375,
+        "width": 346,
+        "height": 259.5
+      }
+    ]
+  },
+  {
+    "file": "contact.html",
+    "mobile": true,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": null,
+    "layoutBefore": [],
+    "layoutAfter": []
+  },
+  {
+    "file": "fecit-platform.html",
+    "mobile": true,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/collections/bench-02/01-three-quarter-view.jpg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "Fecit Platform shown from a three-quarter angle",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 658.3125
+      },
+      {
+        "alt": "Front view of the Fecit Platform",
+        "x": 36,
+        "y": 1113.078125,
+        "width": 318,
+        "height": 330
+      },
+      {
+        "alt": "Top detail of the Fecit Platform",
+        "x": 36,
+        "y": 1463.078125,
+        "width": 318,
+        "height": 330
+      },
+      {
+        "alt": "Fecit Platform in a natural outdoor setting",
+        "x": 36,
+        "y": 1813.078125,
+        "width": 318,
+        "height": 330
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "Fecit Platform shown from a three-quarter angle",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 658.3125
+      },
+      {
+        "alt": "Front view of the Fecit Platform",
+        "x": 36,
+        "y": 1113.078125,
+        "width": 318,
+        "height": 330
+      },
+      {
+        "alt": "Top detail of the Fecit Platform",
+        "x": 36,
+        "y": 1463.078125,
+        "width": 318,
+        "height": 330
+      },
+      {
+        "alt": "Fecit Platform in a natural outdoor setting",
+        "x": 36,
+        "y": 1813.078125,
+        "width": 318,
+        "height": 330
+      }
+    ]
+  },
+  {
+    "file": "kitchen-stool.html",
+    "mobile": true,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/stool/single-three-quarter.jpg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "Kitchen Stool in Red Meranti, showing the seat grip and footrest",
+        "x": 20,
+        "y": 216.90625,
+        "width": 350,
+        "height": 525
+      },
+      {
+        "alt": "A pair of Red Meranti Kitchen Stools",
+        "x": 36,
+        "y": 1299.0625,
+        "width": 318,
+        "height": 397.5
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "Kitchen Stool in Red Meranti, showing the seat grip and footrest",
+        "x": 20,
+        "y": 216.90625,
+        "width": 350,
+        "height": 525
+      },
+      {
+        "alt": "A pair of Red Meranti Kitchen Stools",
+        "x": 36,
+        "y": 1299.0625,
+        "width": 318,
+        "height": 397.5
+      }
+    ]
+  },
+  {
+    "file": "pillar-table.html",
+    "mobile": true,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/collections/cabinet-01/01-three-quarter-view.jpg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "Pillar Table shown from a three-quarter angle",
+        "x": 20,
+        "y": 216.90625,
+        "width": 350,
+        "height": 525
+      },
+      {
+        "alt": "Front view of the Pillar Table",
+        "x": 36,
+        "y": 1157.140625,
+        "width": 318,
+        "height": 477.03125
+      },
+      {
+        "alt": "Three-quarter view of the Pillar Table",
+        "x": 36,
+        "y": 1721.671875,
+        "width": 318,
+        "height": 330
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "Pillar Table shown from a three-quarter angle",
+        "x": 20,
+        "y": 216.90625,
+        "width": 350,
+        "height": 525
+      },
+      {
+        "alt": "Front view of the Pillar Table",
+        "x": 36,
+        "y": 1156.921875,
+        "width": 318,
+        "height": 477.25
+      },
+      {
+        "alt": "Three-quarter view of the Pillar Table",
+        "x": 36,
+        "y": 1721.671875,
+        "width": 318,
+        "height": 330
+      }
+    ]
+  },
+  {
+    "file": "reef-table.html",
+    "mobile": true,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/reeftable/reef-table-three-quarter-view.jpeg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "Reef Table with a flowing wooden top and contrasting supports beside a river",
+        "x": 24,
+        "y": 209.234375,
+        "width": 342,
+        "height": 256.5
+      },
+      {
+        "alt": "Reef Table showing the curved top, angled leg and lower stretcher",
+        "x": 24,
+        "y": 989.09375,
+        "width": 342,
+        "height": 256.5
+      },
+      {
+        "alt": "End view of the Reef Table showing the broad support and exposed tabletop joinery",
+        "x": 24,
+        "y": 1273.59375,
+        "width": 342,
+        "height": 342
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "Reef Table with a flowing wooden top and contrasting supports beside a river",
+        "x": 24,
+        "y": 209.234375,
+        "width": 342,
+        "height": 256.5
+      },
+      {
+        "alt": "Reef Table showing the curved top, angled leg and lower stretcher",
+        "x": 24,
+        "y": 989.09375,
+        "width": 342,
+        "height": 256.5
+      },
+      {
+        "alt": "End view of the Reef Table showing the broad support and exposed tabletop joinery",
+        "x": 24,
+        "y": 1273.59375,
+        "width": 342,
+        "height": 342
+      }
+    ]
+  },
+  {
+    "file": "risibiki-table.html",
+    "mobile": true,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/risibiki/risibiki-table-riverside-view.jpeg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "Risibiki Table on a tree stump beside the river",
+        "x": 24,
+        "y": 209.234375,
+        "width": 342,
+        "height": 342
+      },
+      {
+        "alt": "Risibiki Table showing the curved tabletop and sculptural base in the grass",
+        "x": 24,
+        "y": 1103.390625,
+        "width": 342,
+        "height": 342
+      },
+      {
+        "alt": "Side view of the Risibiki Table beside the river",
+        "x": 24,
+        "y": 1473.390625,
+        "width": 342,
+        "height": 342
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "Risibiki Table on a tree stump beside the river",
+        "x": 24,
+        "y": 209.234375,
+        "width": 342,
+        "height": 342
+      },
+      {
+        "alt": "Risibiki Table showing the curved tabletop and sculptural base in the grass",
+        "x": 24,
+        "y": 1103.390625,
+        "width": 342,
+        "height": 342
+      },
+      {
+        "alt": "Side view of the Risibiki Table beside the river",
+        "x": 24,
+        "y": 1473.390625,
+        "width": 342,
+        "height": 342
+      }
+    ]
+  },
+  {
+    "file": "sculptural-desk.html",
+    "mobile": true,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/desk/styled-front-view.jpg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "Sculptural Desk styled with a laptop and vase",
+        "x": 24,
+        "y": 209.234375,
+        "width": 342,
+        "height": 256.46875
+      },
+      {
+        "alt": "Front view of the Sculptural Desk",
+        "x": 24,
+        "y": 989.0625,
+        "width": 342,
+        "height": 256.515625
+      },
+      {
+        "alt": "Sculpted underside detail of the Sculptural Desk",
+        "x": 24,
+        "y": 1273.578125,
+        "width": 342,
+        "height": 256.453125
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "Sculptural Desk styled with a laptop and vase",
+        "x": 24,
+        "y": 209.234375,
+        "width": 342,
+        "height": 256.5
+      },
+      {
+        "alt": "Front view of the Sculptural Desk",
+        "x": 24,
+        "y": 989.09375,
+        "width": 342,
+        "height": 256.5
+      },
+      {
+        "alt": "Sculpted underside detail of the Sculptural Desk",
+        "x": 24,
+        "y": 1273.59375,
+        "width": 342,
+        "height": 256.5
+      }
+    ]
+  },
+  {
+    "file": "wf03-lounge-chair.html",
+    "mobile": true,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/collections/lounge-chair-02/02-rear-three-quarter.jpg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "WF03 Lounge Chair shown from the rear",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 658.3125
+      },
+      {
+        "alt": "Front three-quarter view of the WF03 Lounge Chair",
+        "x": 36,
+        "y": 1113.078125,
+        "width": 318,
+        "height": 397.5
+      },
+      {
+        "alt": "Rear three-quarter view of the WF03 Lounge Chair",
+        "x": 36,
+        "y": 1530.578125,
+        "width": 318,
+        "height": 397.5
+      },
+      {
+        "alt": "Front detail of the WF03 Lounge Chair",
+        "x": 36,
+        "y": 1948.078125,
+        "width": 318,
+        "height": 397.5
+      },
+      {
+        "alt": "Side detail of the WF03 Lounge Chair",
+        "x": 36,
+        "y": 2365.578125,
+        "width": 318,
+        "height": 397.5
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "WF03 Lounge Chair shown from the rear",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 658.3125
+      },
+      {
+        "alt": "Front three-quarter view of the WF03 Lounge Chair",
+        "x": 36,
+        "y": 1113.078125,
+        "width": 318,
+        "height": 397.5
+      },
+      {
+        "alt": "Rear three-quarter view of the WF03 Lounge Chair",
+        "x": 36,
+        "y": 1530.578125,
+        "width": 318,
+        "height": 397.5
+      },
+      {
+        "alt": "Front detail of the WF03 Lounge Chair",
+        "x": 36,
+        "y": 1948.078125,
+        "width": 318,
+        "height": 397.5
+      },
+      {
+        "alt": "Side detail of the WF03 Lounge Chair",
+        "x": 36,
+        "y": 2365.578125,
+        "width": 318,
+        "height": 397.5
+      }
+    ]
+  },
+  {
+    "file": "wf05-dining-chair.html",
+    "mobile": true,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/collections/lounge-chair-01/01-front-three-quarter.jpg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "WF05 Dining Chair shown from the front",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 658.3125
+      },
+      {
+        "alt": "Rear view of the WF05 Dining Chair",
+        "x": 36,
+        "y": 1113.078125,
+        "width": 318,
+        "height": 397.5
+      },
+      {
+        "alt": "Front three-quarter view of the WF05 Dining Chair",
+        "x": 36,
+        "y": 1530.578125,
+        "width": 318,
+        "height": 397.5
+      },
+      {
+        "alt": "Side detail of the WF05 Dining Chair",
+        "x": 36,
+        "y": 1948.078125,
+        "width": 318,
+        "height": 330
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "WF05 Dining Chair shown from the front",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 658.3125
+      },
+      {
+        "alt": "Rear view of the WF05 Dining Chair",
+        "x": 36,
+        "y": 1113.078125,
+        "width": 318,
+        "height": 397.5
+      },
+      {
+        "alt": "Front three-quarter view of the WF05 Dining Chair",
+        "x": 36,
+        "y": 1530.578125,
+        "width": 318,
+        "height": 397.5
+      },
+      {
+        "alt": "Side detail of the WF05 Dining Chair",
+        "x": 36,
+        "y": 1948.078125,
+        "width": 318,
+        "height": 330
+      }
+    ]
+  },
+  {
+    "file": "wf06-hallway-table.html",
+    "mobile": true,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/collections/console-table-01/01-three-quarter-view.jpg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "WF06 Hallway Table shown from a three-quarter angle",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 658.3125
+      },
+      {
+        "alt": "Front view of the WF06 Hallway Table",
+        "x": 36,
+        "y": 1113.078125,
+        "width": 318,
+        "height": 330
+      },
+      {
+        "alt": "Side view of the WF06 Hallway Table",
+        "x": 36,
+        "y": 1463.078125,
+        "width": 318,
+        "height": 212
+      },
+      {
+        "alt": "Three-quarter view of the WF06 Hallway Table",
+        "x": 36,
+        "y": 1695.078125,
+        "width": 318,
+        "height": 212
+      },
+      {
+        "alt": "Leg joint detail of the WF06 Hallway Table",
+        "x": 36,
+        "y": 1927.078125,
+        "width": 318,
+        "height": 477
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "WF06 Hallway Table shown from a three-quarter angle",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 658.3125
+      },
+      {
+        "alt": "Front view of the WF06 Hallway Table",
+        "x": 36,
+        "y": 1113.078125,
+        "width": 318,
+        "height": 330
+      },
+      {
+        "alt": "Side view of the WF06 Hallway Table",
+        "x": 36,
+        "y": 1463.078125,
+        "width": 318,
+        "height": 212
+      },
+      {
+        "alt": "Three-quarter view of the WF06 Hallway Table",
+        "x": 36,
+        "y": 1695.078125,
+        "width": 318,
+        "height": 212.0625
+      },
+      {
+        "alt": "Leg joint detail of the WF06 Hallway Table",
+        "x": 36,
+        "y": 1927.140625,
+        "width": 318,
+        "height": 477
+      }
+    ]
+  },
+  {
+    "file": "wf08-foyer-bench.html",
+    "mobile": true,
+    "errors": [],
+    "broken": [],
+    "duplicates": [],
+    "lightbox": {
+      "source": "assets/images/collections/bench-01/02-front-view.jpg",
+      "zoom": "150%"
+    },
+    "layoutBefore": [
+      {
+        "alt": "Front view of the WF08 Foyer Bench",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 658.3125
+      },
+      {
+        "alt": "WF08 Foyer Bench shown from a three-quarter angle",
+        "x": 36,
+        "y": 1113.078125,
+        "width": 318,
+        "height": 241.796875
+      },
+      {
+        "alt": "Leg joint detail of the WF08 Foyer Bench",
+        "x": 36,
+        "y": 1374.875,
+        "width": 318,
+        "height": 330
+      },
+      {
+        "alt": "Top detail of the WF08 Foyer Bench",
+        "x": 36,
+        "y": 1724.875,
+        "width": 318,
+        "height": 330
+      }
+    ],
+    "layoutAfter": [
+      {
+        "alt": "Front view of the WF08 Foyer Bench",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 658.3125
+      },
+      {
+        "alt": "WF08 Foyer Bench shown from a three-quarter angle",
+        "x": 36,
+        "y": 1113.078125,
+        "width": 318,
+        "height": 241.796875
+      },
+      {
+        "alt": "Leg joint detail of the WF08 Foyer Bench",
+        "x": 36,
+        "y": 1374.875,
+        "width": 318,
+        "height": 330
+      },
+      {
+        "alt": "Top detail of the WF08 Foyer Bench",
+        "x": 36,
+        "y": 1724.875,
+        "width": 318,
+        "height": 330
+      }
+    ]
+  },
+  {
+    "file": "index.html",
+    "mobile": true,
+    "errors": [],
+    "title": {
+      "opacity": "1",
+      "rect": {
+        "x": 48,
+        "y": 354.7734375,
+        "width": 60,
+        "height": 134.453125,
+        "top": 354.7734375,
+        "right": 108,
+        "bottom": 489.2265625,
+        "left": 48
+      },
+      "font": "Poppins, sans-serif"
+    },
+    "confirmation": "Message Sent!",
+    "anchor": true,
+    "returned": true
+  }
+]

@@ -34,18 +34,13 @@ $(function () {
     // FormSubmit redirects back with this callback after a successful message.
     var callback = new URLSearchParams(window.location.search).get("callback");
 
-    if (callback === "contact" && typeof Toastify === "function") {
-        Toastify({
-            text: "Message Sent!",
-            duration: 5000,
-            newWindow: true,
-            close: true,
-            gravity: "top",
-            position: "center",
-            stopOnFocus: true,
-            style: {
-                background: "linear-gradient(to right, #00b09b, #96c93d)"
-            }
-        }).showToast();
+    if (callback === "contact") {
+        var confirmation = document.createElement("div");
+        confirmation.id = "snackbar";
+        confirmation.className = "show";
+        confirmation.setAttribute("role", "status");
+        confirmation.textContent = "Message Sent!";
+        document.body.appendChild(confirmation);
+        window.setTimeout(function () { confirmation.remove(); }, 5000);
     }
 });
