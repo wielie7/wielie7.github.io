@@ -116,3 +116,22 @@
         if (event.key === '-') setZoom(scale - .5);
     });
 })();
+
+(() => {
+    const toggle = document.querySelector('.product-nav__toggle');
+    const menu = document.querySelector('.product-nav__menu');
+    if (!toggle || !menu) return;
+    const closeMenu = () => {
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Open navigation');
+        menu.classList.remove('is-open');
+    };
+    toggle.addEventListener('click', () => {
+        const open = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!open));
+        toggle.setAttribute('aria-label', open ? 'Open navigation' : 'Close navigation');
+        menu.classList.toggle('is-open', !open);
+    });
+    menu.addEventListener('click', (event) => { if (event.target.closest('a')) closeMenu(); });
+    document.addEventListener('keydown', (event) => { if (event.key === 'Escape') closeMenu(); });
+})();

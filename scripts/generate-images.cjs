@@ -39,8 +39,8 @@ const sharp = require('sharp');
       // max-width 768px and min-height 600px, the removed sides are always
       // outside the existing centered cover crop. Keep the full source height.
       for (const size of [480, 800, 960]) {
-        const file = `${base}-mobile-${size}-q65.avif`;
-        if (!fs.existsSync(file)) await sharp(input).extract({ left: 320, top: 0, width: 960, height: 1066 }).resize({ width: size }).avif({ quality: 65, effort: 6 }).toFile(file);
+        const file = `${base}-mobile-${size}-q90.avif`;
+        if (!fs.existsSync(file)) await sharp(input).extract({ left: 320, top: 0, width: 960, height: 1066 }).resize({ width: size }).avif({ quality: 90, effort: 6 }).toFile(file);
         mobileAvif.push({ width: size, src: file, bytes: fs.statSync(file).size });
       }
     }

@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html class="no-js" lang="en">
 
 	<head>
@@ -85,7 +85,17 @@
         </div>
     </div>
 
-    <div class="hero-image"><img src="assets/images/about/outdoor-bench-forest.jpg" alt="Handcrafted wooden bench in a forest setting" width="1600" height="1066" loading="eager" fetchpriority="high" decoding="async"></div>
+    <div class="hero-image">
+        <picture>
+            <source media="(max-width: 768px)" type="image/avif"
+                srcset="assets/images/optimized/outdoor-bench-forest-77a9a9284d51-mobile-480-q90.avif 480w, assets/images/optimized/outdoor-bench-forest-77a9a9284d51-mobile-800-q90.avif 800w, assets/images/optimized/outdoor-bench-forest-77a9a9284d51-mobile-960-q90.avif 960w"
+                sizes="60vw">
+            <img src="assets/images/about/outdoor-bench-forest.jpg"
+                alt="Handcrafted wooden bench in a forest setting"
+                width="1600" height="1066"
+                loading="eager" fetchpriority="high" decoding="async">
+        </picture>
+    </div>
 
 </section>
 

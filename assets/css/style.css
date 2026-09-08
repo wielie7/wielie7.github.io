@@ -224,6 +224,59 @@ nav.navbar.bootsnav .navbar-toggle {
     top: 0;
 }
 nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
+
+/* Keep the collapsed menu readable on small screens, including transparent hero navs. */
+@media (max-width: 992px) {
+    nav.navbar.bootsnav {
+        position: fixed;
+        z-index: 20;
+        top: 0;
+        right: 0;
+        left: 0;
+        min-height: 64px;
+        padding: 0 20px;
+        border: 0;
+        background: rgba(241,238,230,.97) !important;
+        box-shadow: 0 1px 0 rgba(25,25,21,.12);
+    }
+    nav.navbar.bootsnav .container { width: 100%; padding: 0; }
+    nav.navbar.bootsnav .navbar-header { display: flex; align-items: center; justify-content: space-between; width: 100%; }
+    nav.navbar.bootsnav .navbar-brand {
+        height: auto;
+        margin: 0;
+        padding: 17px 0;
+        color: #191915 !important;
+        font-size: 19px;
+        font-weight: 600;
+        letter-spacing: .18em;
+        line-height: 30px;
+    }
+    nav.navbar.bootsnav .navbar-toggle {
+        display: grid;
+        grid-template-rows: repeat(3,1px);
+        gap: 5px;
+        width: 34px;
+        height: 30px;
+        margin: 17px 0;
+        margin-left: auto;
+        order: 2;
+        padding: 7px 4px;
+        border: 1px solid #191915;
+        color: #191915;
+        background: transparent;
+    }
+    nav.navbar.bootsnav .navbar-toggle i { display: block; width: 100%; height: 14px; color: transparent; background: linear-gradient(#191915 0 1px, transparent 1px 6px, #191915 6px 7px, transparent 7px 12px, #191915 12px 13px); }
+    nav.navbar.bootsnav .navbar-toggle i::before { display: none; }
+    nav.navbar.bootsnav .navbar-collapse { background: #f1eee6; border-top: 1px solid rgba(25,25,21,.16); }
+    nav.navbar.bootsnav ul.nav > li > a,
+    nav.navbar.bootsnav.no-background ul.nav > li > a,
+    nav.navbar.bootsnav:not(.no-background) ul.nav > li > a { color: #191915 !important; background: #f1eee6; }
+    nav.navbar.bootsnav ul.nav > li > a:hover,
+    nav.navbar.bootsnav ul.nav > li > a:focus,
+    nav.navbar.bootsnav ul.nav > li.active > a { color: #81512b !important; background: #e7e2d8; }
+    nav.navbar.bootsnav .navbar-toggle { border-color: #191915; }
+    nav.navbar.bootsnav .navbar-toggle i { color: #191915; }
+}
 /*-------------------------------------
         3.  Welcome-hero
 --------------------------------------*/
@@ -271,6 +324,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
     z-index: 1;
 }
 
+/* The hero photograph is discovered directly in the homepage markup so it can
+   be prioritized as the largest contentful image. */
+
 /*-------------------------------------
         Header text
 --------------------------------------*/
@@ -296,6 +352,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
     line-height: 1.5;
     padding-top: 0;
     margin: 0;
+    /* Keep the wordmark vertical beside the hero photograph. */
     writing-mode: vertical-rl;
     text-orientation: mixed;
     
@@ -315,6 +372,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
     text-transform: uppercase;
     margin: 30px 0 0;
     letter-spacing: 3px;
+    /* Keep the supporting label aligned with the vertical wordmark. */
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
@@ -841,6 +899,7 @@ a.coli-link {
     }
 }
 
+/* Maker feature uses a full-bleed workshop photograph with a readable text overlay. */
 .about-feature {
     position: relative;
     z-index: 20;

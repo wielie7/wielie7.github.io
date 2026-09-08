@@ -10,9 +10,13 @@ takes priority over the smallest possible download.
   large or high-density displays, without upscaling originals.
 - Product backgrounds and their matching preloads now use 2400 pixels on
   desktop and 1600 on mobile, preserving the existing positioning and effect.
-- The homepage hero uses its original JPEG, without another lossy encoding.
-  Its 1600×1066 source remains the maximum available detail; further improvement
-  on very large screens would require a higher-resolution original.
+- The homepage desktop hero uses its original JPEG, without another lossy
+  encoding. Its 1600×1066 source remains the maximum available detail; further
+  improvement on very large screens would require a higher-resolution original.
+- The homepage now supplies a dedicated 960×1066 high-quality AVIF crop for
+  mobile viewports. It covers the same centered portion of the photograph as the
+  desktop image's existing `object-fit: cover` crop, but avoids scaling a wide
+  landscape source into the tall mobile box.
 - Full-resolution lightbox originals, crop rules, navigation, and lazy loading
   remain in place. New generated filenames prevent reuse of the older cached
   derivatives. Original photographs were not overwritten or deleted.

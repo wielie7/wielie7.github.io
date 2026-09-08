@@ -897,6 +897,22 @@
     "fallback": "assets/images/optimized/outdoor-bench-forest-77a9a9284d51-fallback.jpg",
     "variants": [],
     "avif": [],
-    "mobileAvif": []
+    "mobileAvif": [
+      {
+        "width": 480,
+        "src": "assets/images/optimized/outdoor-bench-forest-77a9a9284d51-mobile-480-q90.avif",
+        "bytes": 163741
+      },
+      {
+        "width": 800,
+        "src": "assets/images/optimized/outdoor-bench-forest-77a9a9284d51-mobile-800-q90.avif",
+        "bytes": 391458
+      },
+      {
+        "width": 960,
+        "src": "assets/images/optimized/outdoor-bench-forest-77a9a9284d51-mobile-960-q90.avif",
+        "bytes": 395095
+      }
+    ]
   }
 }
