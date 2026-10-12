@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://fecit.co.za/</loc>
+  <image:image><image:loc>https://fecit.co.za/assets/images/about/outdoor-bench-forest.jpg</image:loc></image:image>
   <priority>1.00</priority>
 </url>
 <url>
@@ -13,16 +15,17 @@
 </url>
 <url>
   <loc>https://fecit.co.za/archive</loc>
+  <image:image><image:loc>https://fecit.co.za/assets/images/optimized/01-three-quarter-view-b7258944631b-fallback.jpg</image:loc></image:image>
 </url>
 <url><loc>https://fecit.co.za/contact</loc></url>
-<url><loc>https://fecit.co.za/fecit-platform</loc></url>
-<url><loc>https://fecit.co.za/kitchen-stool</loc></url>
-<url><loc>https://fecit.co.za/pillar-table</loc></url>
-<url><loc>https://fecit.co.za/risibiki-table</loc></url>
-<url><loc>https://fecit.co.za/sculptural-desk</loc></url>
-<url><loc>https://fecit.co.za/wf03-lounge-chair</loc></url>
-<url><loc>https://fecit.co.za/wf05-dining-chair</loc></url>
-<url><loc>https://fecit.co.za/wf06-hallway-table</loc></url>
-<url><loc>https://fecit.co.za/wf08-foyer-bench</loc></url>
-<url><loc>https://fecit.co.za/reef-table</loc></url>
+<url><loc>https://fecit.co.za/fecit-platform</loc><image:image><image:loc>https://fecit.co.za/assets/images/optimized/01-three-quarter-view-b6da30286a49-fallback.jpg</image:loc></image:image></url>
+<url><loc>https://fecit.co.za/kitchen-stool</loc><image:image><image:loc>https://fecit.co.za/assets/images/optimized/single-three-quarter-a346d045c726-fallback.jpg</image:loc></image:image></url>
+<url><loc>https://fecit.co.za/pillar-table</loc><image:image><image:loc>https://fecit.co.za/assets/images/optimized/01-three-quarter-view-5b460daeb038-fallback.jpg</image:loc></image:image></url>
+<url><loc>https://fecit.co.za/risibiki-table</loc><image:image><image:loc>https://fecit.co.za/assets/images/optimized/risibiki-table-riverside-view-b5f4129808f7-fallback.jpg</image:loc></image:image></url>
+<url><loc>https://fecit.co.za/sculptural-desk</loc><image:image><image:loc>https://fecit.co.za/assets/images/optimized/styled-front-view-503256e81970-fallback.jpg</image:loc></image:image></url>
+<url><loc>https://fecit.co.za/wf03-lounge-chair</loc><image:image><image:loc>https://fecit.co.za/assets/images/optimized/02-rear-three-quarter-6c480da34f17-fallback.jpg</image:loc></image:image></url>
+<url><loc>https://fecit.co.za/wf05-dining-chair</loc><image:image><image:loc>https://fecit.co.za/assets/images/optimized/01-front-three-quarter-8a75a9209ec8-fallback.jpg</image:loc></image:image></url>
+<url><loc>https://fecit.co.za/wf06-hallway-table</loc><image:image><image:loc>https://fecit.co.za/assets/images/optimized/01-three-quarter-view-ea102bcf3e21-fallback.jpg</image:loc></image:image></url>
+<url><loc>https://fecit.co.za/wf08-foyer-bench</loc><image:image><image:loc>https://fecit.co.za/assets/images/optimized/02-front-view-dfd822ae7dd0-fallback.jpg</image:loc></image:image></url>
+<url><loc>https://fecit.co.za/reef-table</loc><image:image><image:loc>https://fecit.co.za/assets/images/optimized/reef-table-three-quarter-view-521dc2b164a1-fallback.jpg</image:loc></image:image></url>
 </urlset>
