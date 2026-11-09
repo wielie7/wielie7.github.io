@@ -13,8 +13,12 @@
 .archive-card__image { aspect-ratio: 4 / 3; overflow: hidden; background: #e2ded5; }
 .archive-card:first-child .archive-card__image { aspect-ratio: 2 / 1; }
 .archive-card__image img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .6s ease; }
-.archive-card:first-child img { object-position: center bottom; }
+.archive-card:first-child img { object-position: center 55%; }
 .archive-card:hover img { transform: scale(1.025); }
+.archive-card--bench .archive-card__image { aspect-ratio: 3 / 2; }
+/* Keep the Platform image still on hover so its full length remains visible. */
+.archive-card--platform .archive-card__image img { object-fit: cover; }
+.archive-card--platform:hover img { transform: none; }
 .archive-card__caption { display: flex; align-items: center; gap: 20px; padding: 21px 0 0; }
 .archive-card__number { align-self: start; padding-top: 3px; color: #77766e; font-size: 10px; }
 .archive-card__caption .archive-card__type { margin: 0 0 7px; color: #77766e; font-size: 10px; line-height: 1; text-transform: uppercase; letter-spacing: .12em; }

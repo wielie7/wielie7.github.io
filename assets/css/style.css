@@ -1045,12 +1045,12 @@ a.coli-link {
 }
 
 /* Visually align the two bench photographs despite their different source framing. */
-.featured-products__grid .product-card:first-child .product-card__image img {
+.featured-products__grid .product-card:nth-child(2) .product-card__image img {
     transform: translateY(-7.5%) scale(1.14);
 }
 
-.featured-products__grid .product-card:first-child:hover .product-card__image img,
-.featured-products__grid .product-card:first-child:focus .product-card__image img {
+.featured-products__grid .product-card:nth-child(2):hover .product-card__image img,
+.featured-products__grid .product-card:nth-child(2):focus .product-card__image img {
     transform: translateY(-7.5%) scale(1.155);
 }
 
